@@ -1,0 +1,86 @@
+{
+  "slug": "europe",
+  "name": "Europe",
+  "longName": "Europe",
+  "code": "EUR",
+  "path": "/study-in-europe/",
+  "currency": "EUR",
+  "region": "Europe",
+  "hubOf": [
+    "germany",
+    "malta",
+    "ireland"
+  ],
+  "meta": {
+    "title": "Study in Europe from India: Germany, Malta, Ireland compared",
+    "description": "Compare studying in Germany, Malta and Ireland: tuition, money to show for the visa, work during study and how long you can stay after graduating."
+  },
+  "summary": "Low-fee public universities in Germany, part-time work in Malta, and up to 2 years of stay-back in Ireland.",
+  "whyReasons": [
+    {
+      "text": "Germany's public universities charge no tuition for most bachelor's and master's programmes. You pay a semester contribution of €70 to €430.",
+      "source": "https://www.daad.de/en/studying-in-germany/living-in-germany/finances/",
+      "lastVerified": "2026-10-01"
+    },
+    {
+      "text": "Graduates in Germany get up to 18 months to find a job. Malta gives a one-time 9-month permit. Ireland gives master's graduates up to 24 months.",
+      "source": "https://www.bamf.de/EN/Themen/MigrationAufenthalt/ZuwandererDrittstaaten/Arbeit/Hochschulabsolvent/hochschulabsolvent-node.html",
+      "lastVerified": "2026-10-01"
+    },
+    {
+      "text": "A residence permit from one Schengen country such as Germany or Malta lets you travel to other Schengen countries for short visits. Ireland is not in the Schengen area.",
+      "source": "https://home-affairs.ec.europa.eu/policies/schengen/schengen-area_en",
+      "lastVerified": "2026-10-01"
+    }
+  ],
+  "costs": {
+    "tuition": {
+      "ug": null,
+      "pg": null
+    },
+    "living": null,
+    "visaFunds": null
+  },
+  "intakes": null,
+  "requirements": {
+    "ug": {
+      "academics": null,
+      "english": null,
+      "tests": null
+    },
+    "pg": {
+      "academics": null,
+      "english": null,
+      "tests": null
+    }
+  },
+  "englishMinimum": null,
+  "workRights": {
+    "duringStudy": null,
+    "afterStudy": null
+  },
+  "pr": null,
+  "popularCourses": [
+    "Engineering",
+    "Computer Science",
+    "Data Analytics",
+    "Business",
+    "Hospitality Management"
+  ],
+  "scholarships": [],
+  "faq": [
+    {
+      "q": "Which European country is cheapest to study in?",
+      "a": "Germany's public universities charge no tuition for most courses, but you must show €11,904 a year for living costs. Your counsellor will compare total costs for your course across Germany, Malta and Ireland."
+    },
+    {
+      "q": "Do I need German to study in Germany?",
+      "a": "Not for every course. Some programmes are taught fully in English. Check the teaching language of each course on your shortlist; the DAAD course database lets you filter by language."
+    },
+    {
+      "q": "Can I work after studying in Europe?",
+      "a": "Germany gives graduates up to 18 months to look for work, Ireland up to 24 months after a master's, and Malta a one-time 9-month permit."
+    }
+  ],
+  "boardWork": null
+}

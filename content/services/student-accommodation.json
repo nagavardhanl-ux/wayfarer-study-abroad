@@ -1,0 +1,45 @@
+{
+  "slug": "student-accommodation",
+  "path": "/student-accommodation/",
+  "name": "Student accommodation",
+  "short": "A safe place to live near campus, arranged before you fly.",
+  "meta": {
+    "title": "Student accommodation abroad, arranged before you fly",
+    "description": "University halls, private student housing and shared flats near your campus. Wayfarer helps you compare options, check contracts and book before departure."
+  },
+  "h1": "Know where you will live before you board the flight.",
+  "intro": "We help you compare university halls, private student housing and shared rooms near your campus, and book before you travel.",
+  "covers": [
+    "University-managed halls and private student residences",
+    "Shared flats with other students",
+    "Rent, deposit and what the rent includes",
+    "Distance and travel time to campus",
+    "Checking the contract before you pay",
+    "Airport pickup options where the university offers them"
+  ],
+  "whoFor": [
+    "Students travelling for the first time",
+    "Parents who want the address confirmed before departure"
+  ],
+  "steps": [
+    { "title": "Set a budget", "text": "We use the living cost figures for your city to set a rent budget." },
+    { "title": "Compare options", "text": "University halls, private residences and shared rooms near your campus." },
+    { "title": "Check the contract", "text": "Length, deposit, notice period and what is included." },
+    { "title": "Book and share", "text": "Book, then share the address with your family before you fly." }
+  ],
+  "sections": [
+    {
+      "heading": "Safety checks before you pay",
+      "bullets": [
+        "Book through the university or a known housing provider, not an unknown social media post.",
+        "Never pay a deposit for a room you have not seen on video or verified.",
+        "Get a written contract with the address, rent and deposit terms."
+      ]
+    }
+  ],
+  "tools": [{ "label": "Cost calculator", "href": "/tools/cost-calculator/" }],
+  "videoId": "",
+  "faq": [
+    { "q": "Should I choose university halls or private housing?", "a": "University halls are usually close to campus and easy to book from India. Private housing can cost less in some cities. We help you compare both for your university." }
+  ]
+}

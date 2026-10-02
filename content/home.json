@@ -1,0 +1,150 @@
+{
+  "_help": "Home page 'About our overseas education' section. Photos live in /public/images/home/. 'images' shows up to three photos as a collage: the first is the tall one on the left, the second and third stack on the right. Remove all images to show the Since 2011 panel instead. 'services' are the flip cards in 'One-stop destination for your study abroad needs': a line icon on the front (icon: test, chat, award, stamp, doc, campus, book or loan), text on the back, and the page the card opens. 'how' is the 'How Wayfarer works' journey: three legs (Plan, Apply, Fly), each with its steps. 'icon' must be one of: check, list, book, send, wallet, passport, home, plane.",
+  "about": {
+    "heading": "About our overseas education",
+    "paragraphs": [
+      "We counsel students about education opportunities in other countries and help them get there, from choosing a course to landing at their university.",
+      "Wayfarer began in 2011. Since then, students from Bengaluru, Chennai, Pune and Kochi have come to us for admissions, education loans and student visas.",
+      "Over the years we have added test coaching, visit visas and immigration services. Read about our mission, our values and how we work."
+    ],
+    "aboutLinkLabel": "Read about Wayfarer",
+    "images": [
+      {
+        "src": "/images/home/about-graduate.jpg",
+        "alt": "A graduate in a gown raising her cap in front of a university building",
+        "width": 1066,
+        "height": 1600
+      },
+      {
+        "src": "/images/home/about-students.jpg",
+        "alt": "Two students with backpacks walking up a university staircase",
+        "width": 1600,
+        "height": 1066
+      },
+      {
+        "src": "/images/home/about-globe.jpg",
+        "alt": "A desk globe showing Europe",
+        "width": 1065,
+        "height": 1600
+      }
+    ]
+  },
+  "services": {
+    "heading": "One-stop destination for your study abroad needs",
+    "intro": "Every part of studying abroad, handled in one place.",
+    "items": [
+      {
+        "title": "Test preparation",
+        "text": "Coaching for IELTS, PTE, TOEFL, Duolingo, GRE, GMAT and SAT from experienced trainers, online or at a branch.",
+        "href": "/coaching/",
+        "icon": "test"
+      },
+      {
+        "title": "Counselling",
+        "text": "One-to-one guidance and support from your first question to the day you fly.",
+        "href": "/profile-evaluation/",
+        "icon": "chat"
+      },
+      {
+        "title": "Scholarships",
+        "text": "Find the government and university scholarships you qualify for, and apply on time.",
+        "href": "/scholarships/",
+        "icon": "award"
+      },
+      {
+        "title": "Visa processing",
+        "text": "Your visa file checked against the official rules, with interview practice where needed.",
+        "href": "/visa-assistance/",
+        "icon": "stamp"
+      },
+      {
+        "title": "Admission process",
+        "text": "Choose the right intake, then prepare and submit your applications with us.",
+        "href": "/service/",
+        "icon": "doc"
+      },
+      {
+        "title": "University selection",
+        "text": "Pick the right country and university for your profile and budget.",
+        "href": "/study-abroad/",
+        "icon": "campus"
+      },
+      {
+        "title": "Course selection",
+        "text": "Choose a course that fits your marks, interests and career plans.",
+        "href": "/free-profile-check/",
+        "icon": "book"
+      },
+      {
+        "title": "Education loan",
+        "text": "Compare loans with and without collateral, including cases with a low CIBIL score.",
+        "href": "/education-loans/",
+        "icon": "loan"
+      }
+    ]
+  },
+  "how": {
+    "heading": "How Wayfarer works",
+    "intro": "One counsellor takes you through three legs, from the first call to the day you fly.",
+    "legs": [
+      {
+        "name": "Plan",
+        "text": "Find out where you can go, and what it takes.",
+        "steps": [
+          {
+            "icon": "check",
+            "title": "Profile check",
+            "text": "A free conversation about your marks, budget and goals."
+          },
+          {
+            "icon": "list",
+            "title": "Shortlist",
+            "text": "Universities that fit your profile, with fees, intakes and deadlines."
+          },
+          {
+            "icon": "book",
+            "title": "English and entrance tests",
+            "text": "IELTS, PTE, TOEFL, Duolingo, GRE, GMAT or SAT coaching, if your shortlist needs a score."
+          }
+        ]
+      },
+      {
+        "name": "Apply",
+        "text": "Get the offer, the money and the visa in place.",
+        "steps": [
+          {
+            "icon": "send",
+            "title": "Applications",
+            "text": "Prepared and submitted with you, SOP included, and every offer tracked."
+          },
+          {
+            "icon": "wallet",
+            "title": "Education loan",
+            "text": "Collateral and non-collateral options, including low CIBIL cases."
+          },
+          {
+            "icon": "passport",
+            "title": "Visa",
+            "text": "Your file checked document by document, with interview practice."
+          }
+        ]
+      },
+      {
+        "name": "Fly",
+        "text": "Arrive with a place to live and a plan.",
+        "steps": [
+          {
+            "icon": "home",
+            "title": "Accommodation",
+            "text": "A room near your campus, booked before you travel."
+          },
+          {
+            "icon": "plane",
+            "title": "Pre-departure briefing",
+            "text": "Travel, money, phone, your first week and the work rules for your country."
+          }
+        ]
+      }
+    ]
+  }
+}

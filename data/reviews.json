@@ -1,0 +1,77 @@
+{
+  "_help": "Demo content for the fictional Wayfarer brand (portfolio project). People, quotes and ratings are invented. Swap in real, consented entries before any real use; mark placeholders with \"sample\": true and the production build will refuse to ship them. For a real branch, copy the rating, review count and reviews link from its Google Business Profile.",
+  "branches": [
+    {
+      "branch": "bengaluru",
+      "rating": 4.8,
+      "reviewCount": 212,
+      "reviewsUrl": "",
+      "reviews": [
+        {
+          "author": "Karthik",
+          "rating": 5,
+          "text": "Clear advice on costs and loans. They never pushed one country over another."
+        },
+        {
+          "author": "Divya",
+          "rating": 5,
+          "text": "Visa file was checked twice before submission. Very organised team."
+        }
+      ]
+    },
+    {
+      "branch": "chennai",
+      "rating": 4.7,
+      "reviewCount": 168,
+      "reviewsUrl": "",
+      "reviews": [
+        {
+          "author": "Sneha",
+          "rating": 5,
+          "text": "Patient with all my parents' questions. The fee was given in writing upfront."
+        },
+        {
+          "author": "Arjun",
+          "rating": 4,
+          "text": "Good shortlist for my profile. Busy on Saturdays, so book ahead."
+        }
+      ]
+    },
+    {
+      "branch": "pune",
+      "rating": 4.8,
+      "reviewCount": 143,
+      "reviewsUrl": "",
+      "reviews": [
+        {
+          "author": "Omkar",
+          "rating": 5,
+          "text": "Helped me with a study gap and a low CIBIL score. Honest about what was possible."
+        },
+        {
+          "author": "Priya",
+          "rating": 5,
+          "text": "IELTS coaching and applications in one place saved a lot of running around."
+        }
+      ]
+    },
+    {
+      "branch": "kochi",
+      "rating": 4.9,
+      "reviewCount": 97,
+      "reviewsUrl": "",
+      "reviews": [
+        {
+          "author": "Aleena",
+          "rating": 5,
+          "text": "They explained the Germany blocked account step by step. Very calm and clear."
+        },
+        {
+          "author": "Nikhil",
+          "rating": 5,
+          "text": "Friendly counsellors and quick replies on WhatsApp."
+        }
+      ]
+    }
+  ]
+}

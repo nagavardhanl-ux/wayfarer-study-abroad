@@ -1,0 +1,53 @@
+{
+  "_help": "Demo content for the fictional Wayfarer brand (portfolio project). People, quotes and ratings are invented. Swap in real, consented entries before any real use; mark placeholders with \"sample\": true and the production build will refuse to ship them. 'branch' must match a branch slug (bengaluru, chennai, pune, kochi). 'photo' goes in /public/images/team/ (square, at least 400 x 400 px).",
+  "team": [
+    {
+      "id": "demo-bengaluru",
+      "name": "Lakshmi Rao",
+      "role": "Senior counsellor",
+      "branch": "bengaluru",
+      "photo": "",
+      "yearsWithWayfarer": 9,
+      "countries": [
+        "uk",
+        "usa"
+      ]
+    },
+    {
+      "id": "demo-chennai",
+      "name": "Vikram Iyer",
+      "role": "Counsellor",
+      "branch": "chennai",
+      "photo": "",
+      "yearsWithWayfarer": 5,
+      "countries": [
+        "canada",
+        "australia"
+      ]
+    },
+    {
+      "id": "demo-pune",
+      "name": "Neha Kulkarni",
+      "role": "Branch manager",
+      "branch": "pune",
+      "photo": "",
+      "yearsWithWayfarer": 11,
+      "countries": [
+        "usa",
+        "germany"
+      ]
+    },
+    {
+      "id": "demo-kochi",
+      "name": "Thomas Mathew",
+      "role": "Counsellor",
+      "branch": "kochi",
+      "photo": "",
+      "yearsWithWayfarer": 4,
+      "countries": [
+        "ireland",
+        "new-zealand"
+      ]
+    }
+  ]
+}

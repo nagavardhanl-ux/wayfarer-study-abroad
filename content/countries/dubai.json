@@ -1,0 +1,76 @@
+{
+  "slug": "dubai",
+  "name": "Dubai",
+  "longName": "Dubai",
+  "code": "ARE",
+  "path": "/study-in-dubai/",
+  "currency": "AED",
+  "region": "Middle East",
+  "meta": {
+    "title": "Study in Dubai from India: international campuses close to home",
+    "description": "Dubai has 37 international university campuses regulated by KHDA, a short flight from most Indian cities. What to check before you apply, and how Wayfarer helps."
+  },
+  "summary": "Degrees from international universities with campuses in Dubai, a short flight from Bengaluru, Chennai and Kochi.",
+  "whyReasons": [
+    {
+      "text": "37 of Dubai's 41 private higher education institutions are international campuses, so you can earn a degree from a UK, Australian or Indian university while living in Dubai.",
+      "source": "https://web.khda.gov.ae/en/About-Us/News/2025/Dubais-private-higher-education-sector-continues",
+      "lastVerified": "2026-10-01"
+    },
+    {
+      "text": "International students make up 35% of students at Dubai's private universities, and their number rose 29% in a year.",
+      "source": "https://web.khda.gov.ae/en/About-Us/News/2025/Dubais-private-higher-education-sector-continues",
+      "lastVerified": "2026-10-01"
+    },
+    {
+      "text": "Business, information technology, engineering, media and design are the most popular subjects.",
+      "source": "https://web.khda.gov.ae/en/About-Us/News/2025/Dubais-private-higher-education-sector-continues",
+      "lastVerified": "2026-10-01"
+    }
+  ],
+  "costs": {
+    "tuition": {
+      "ug": null,
+      "pg": null
+    },
+    "living": null,
+    "visaFunds": null
+  },
+  "intakes": null,
+  "requirements": {
+    "ug": {
+      "academics": null,
+      "english": null,
+      "tests": null
+    },
+    "pg": {
+      "academics": null,
+      "english": null,
+      "tests": null
+    }
+  },
+  "englishMinimum": null,
+  "workRights": {
+    "duringStudy": null,
+    "afterStudy": null
+  },
+  "pr": null,
+  "popularCourses": [
+    "Business",
+    "Information Technology",
+    "Engineering",
+    "Media and Design"
+  ],
+  "scholarships": [],
+  "faq": [
+    {
+      "q": "Are Dubai universities recognised?",
+      "a": "Check that the university is licensed by KHDA (the Knowledge and Human Development Authority). KHDA publishes a directory of licensed institutions. Your counsellor will also check how the degree is treated in India for your plans."
+    },
+    {
+      "q": "Which universities have campuses in Dubai?",
+      "a": "37 of the 41 institutions regulated by KHDA are international campuses, including universities from the UK, Australia and India. Ask your counsellor for a shortlist that fits your course and budget."
+    }
+  ],
+  "boardWork": null
+}

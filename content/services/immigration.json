@@ -1,0 +1,81 @@
+{
+  "slug": "immigration",
+  "path": "/immigration/",
+  "name": "Immigration and PR",
+  "short": "Permanent residence and job-search routes for Canada, Australia and Germany.",
+  "meta": {
+    "title": "Immigration and PR pathways: Canada, Australia, Germany",
+    "description": "How permanent residence works in Canada (Express Entry), Australia (Skilled Independent visa 189) and Germany (Opportunity Card), with official requirements and the 5-step Wayfarer process."
+  },
+  "h1": "Permanent residence follows clear rules. We check if you meet them first.",
+  "intro": "Wayfarer Immigration helps professionals check their eligibility and prepare applications for Canada, Australia and Germany. Every case starts with an honest eligibility check.",
+  "covers": [
+    "An eligibility check based on age, education, work experience, language and funds",
+    "A written evaluation of the programme that suits you, with costs",
+    "A case officer who stays with you until the decision",
+    "Document preparation and online applications",
+    "Optional post-landing help: accommodation, airport pickup, bank account and SIM card",
+    "Foreign exchange before you fly, if you need it"
+  ],
+  "whoFor": [
+    "Working professionals planning to settle abroad",
+    "Graduates already studying or working abroad who want permanent residence"
+  ],
+  "steps": [
+    { "title": "Pre-assessment check", "text": "You share your age, education, work experience, language results and funds. We check them against the programme rules." },
+    { "title": "Evaluation report", "text": "A written report on your eligibility, the best programme and the cost, usually within 1 to 2 days." },
+    { "title": "Service registration", "text": "If you go ahead, a case officer is assigned and stays your point of contact until the decision." },
+    { "title": "Post-landing services", "text": "Optional help with accommodation, airport pickup, bank account and SIM card." },
+    { "title": "Foreign exchange", "text": "Available for clients who want to exchange currency before flying." }
+  ],
+  "sections": [
+    {
+      "id": "canada",
+      "heading": "Canada: Express Entry",
+      "facts": [
+        {
+          "label": "Federal Skilled Worker Program",
+          "text": "At least 1 year (1,560 hours) of continuous skilled work, language results of at least CLB 7 in all four abilities, education assessed if it is from outside Canada, and 67 points or more on the selection grid. You must also show settlement funds unless you have a valid job offer.",
+          "source": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/who-can-apply/federal-skilled-workers.html",
+          "lastVerified": "2026-10-01"
+        },
+        {
+          "label": "Canadian Experience Class",
+          "text": "At least 1 year (1,560 hours) of skilled work in Canada in the 3 years before you apply. Work done as a full-time student does not count.",
+          "source": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/who-can-apply/canadian-experience-class.html",
+          "lastVerified": "2026-10-01"
+        }
+      ]
+    },
+    {
+      "id": "australia",
+      "heading": "Australia: Skilled Independent visa (subclass 189)",
+      "facts": [
+        {
+          "label": "Requirements",
+          "text": "A permanent visa for invited workers. You need an occupation on the relevant skilled occupation list, a suitable skills assessment, an invitation to apply, 65 points or more on the points test, and you must be under 45 when invited. The visa costs from AUD 6,135.",
+          "source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skilled-independent-189/points-tested",
+          "lastVerified": "2026-10-01"
+        }
+      ]
+    },
+    {
+      "id": "germany",
+      "heading": "Germany: Opportunity Card",
+      "facts": [
+        {
+          "label": "Job search Opportunity Card",
+          "text": "Lets you stay in Germany for up to one year to look for work. You need a recognised vocational or university qualification, German at level A1 or English at level B2, and at least 6 points in the points system (unless your qualification is fully recognised in Germany). You must show funds, for example a blocked account with €1,091 a month in 2026.",
+          "source": "https://www.make-it-in-germany.com/en/visa-residence/opportunity-card/job-search",
+          "lastVerified": "2026-10-01"
+        }
+      ]
+    }
+  ],
+  "tools": [{ "label": "Free profile check", "href": "/free-profile-check/" }],
+  "videoId": "eYLHIW8IYAY",
+  "faq": [
+    { "q": "Can you guarantee PR?", "a": "No. Governments decide every application. We tell you honestly whether you meet the rules before you spend money on an application." },
+    { "q": "How long does the evaluation take?", "a": "The written evaluation report is usually ready within 1 to 2 days after we receive your details." }
+  ]
+}

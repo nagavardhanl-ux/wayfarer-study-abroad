@@ -1,0 +1,53 @@
+{
+  "_help": "Demo content for the fictional Wayfarer brand (portfolio project). People, quotes and ratings are invented. Swap in real, consented entries before any real use; mark placeholders with \"sample\": true and the production build will refuse to ship them. 'photo' and 'visaImage' are paths under /public/images/students/. 'country' must match a country slug.",
+  "testimonials": [
+    {
+      "id": "demo-ananya-uk",
+      "firstName": "Ananya",
+      "photo": "",
+      "university": "University of Surrey",
+      "country": "uk",
+      "course": "MSc Data Science",
+      "intake": "Sep 2026",
+      "branch": "bengaluru",
+      "quote": "My counsellor showed my parents the full cost in rupees on day one, including the visa funds. No surprises later, and the loan was sanctioned before my CAS arrived.",
+      "visaImage": ""
+    },
+    {
+      "id": "demo-rahul-canada",
+      "firstName": "Rahul",
+      "photo": "",
+      "university": "Conestoga College",
+      "country": "canada",
+      "course": "Postgraduate certificate in project management",
+      "intake": "Jan 2026",
+      "branch": "pune",
+      "quote": "I had a two-year gap after my degree. They helped me explain it honestly in my SOP and picked colleges that accept work experience.",
+      "visaImage": ""
+    },
+    {
+      "id": "demo-meera-usa",
+      "firstName": "Meera",
+      "photo": "",
+      "university": "Arizona State University",
+      "country": "usa",
+      "course": "MS Computer Science",
+      "intake": "Fall 2026",
+      "branch": "chennai",
+      "quote": "The mock visa interviews were the most useful part. By my real interview I could explain my funding and plans in two minutes.",
+      "visaImage": ""
+    },
+    {
+      "id": "demo-joel-ireland",
+      "firstName": "Joel",
+      "photo": "",
+      "university": "Dublin Business School",
+      "country": "ireland",
+      "course": "MSc Business Analytics",
+      "intake": "Sep 2026",
+      "branch": "kochi",
+      "quote": "They compared Ireland and the UK for my budget side by side, with the post-study work rules for each. That made the choice easy for my family.",
+      "visaImage": ""
+    }
+  ]
+}

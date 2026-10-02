@@ -1,0 +1,101 @@
+{
+  "_help": "One entry per branch. FICTIONAL placeholder data for the portfolio build: names, addresses and phone numbers are made up. Phone numbers: keep 'phone' in +91XXXXXXXXXX form (no spaces) and 'phoneDisplay' as you want it shown. Leave 'hours' as an empty list until confirmed; the site hides empty fields.",
+  "branches": [
+    {
+      "slug": "bengaluru",
+      "name": "Bengaluru",
+      "fullName": "Wayfarer Bengaluru, Indiranagar",
+      "city": "Bengaluru",
+      "cityCode": "BLR",
+      "state": "Karnataka",
+      "phone": "+919876543210",
+      "phoneDisplay": "+91 98765 43210",
+      "whatsapp": "+919876543210",
+      "addressLines": ["Suite 402, Meridian Arcade", "12th Main Road, Indiranagar", "Bengaluru, Karnataka 560038"],
+      "streetAddress": "Suite 402, Meridian Arcade, 12th Main Road, Indiranagar",
+      "locality": "Bengaluru",
+      "postalCode": "560038",
+      "geo": { "lat": 12.9719, "lng": 77.6412 },
+      "mapEmbed": "https://maps.google.com/maps?q=Indiranagar%2C%20Bengaluru&t=m&z=14&output=embed",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Indiranagar%2C%20Bengaluru",
+      "landmarks": [
+        "The office is on 12th Main Road in Indiranagar.",
+        "Meridian Arcade is a short walk from Indiranagar metro station."
+      ],
+      "hours": [{ "days": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday", "opens": "10:00", "closes": "19:00" }],
+      "googleBusinessUrl": ""
+    },
+    {
+      "slug": "chennai",
+      "name": "Chennai",
+      "fullName": "Wayfarer Chennai, T. Nagar",
+      "city": "Chennai",
+      "cityCode": "MAA",
+      "state": "Tamil Nadu",
+      "phone": "+919876543211",
+      "phoneDisplay": "+91 98765 43211",
+      "whatsapp": "+919876543211",
+      "addressLines": ["2nd Floor, Harbour View Towers", "North Usman Road, T. Nagar", "Chennai, Tamil Nadu 600017"],
+      "streetAddress": "2nd Floor, Harbour View Towers, North Usman Road, T. Nagar",
+      "locality": "Chennai",
+      "postalCode": "600017",
+      "geo": { "lat": 13.0418, "lng": 80.2341 },
+      "mapEmbed": "https://maps.google.com/maps?q=T.%20Nagar%2C%20Chennai&t=m&z=14&output=embed",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=T.%20Nagar%2C%20Chennai",
+      "landmarks": [
+        "The office is on North Usman Road in T. Nagar.",
+        "Take the lift in Harbour View Towers to the 2nd floor."
+      ],
+      "hours": [{ "days": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday", "opens": "10:00", "closes": "19:00" }],
+      "googleBusinessUrl": ""
+    },
+    {
+      "slug": "pune",
+      "name": "Pune",
+      "fullName": "Wayfarer Pune, Koregaon Park",
+      "city": "Pune",
+      "cityCode": "PNQ",
+      "state": "Maharashtra",
+      "phone": "+919876543212",
+      "phoneDisplay": "+91 98765 43212",
+      "whatsapp": "+919876543212",
+      "addressLines": ["Office 7, Lotus Court", "North Main Road, Koregaon Park", "Pune, Maharashtra 411001"],
+      "streetAddress": "Office 7, Lotus Court, North Main Road, Koregaon Park",
+      "locality": "Pune",
+      "postalCode": "411001",
+      "geo": { "lat": 18.5362, "lng": 73.8939 },
+      "mapEmbed": "https://maps.google.com/maps?q=Koregaon%20Park%2C%20Pune&t=m&z=14&output=embed",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Koregaon%20Park%2C%20Pune",
+      "landmarks": [
+        "The office is on North Main Road in Koregaon Park.",
+        "Lotus Court is the building with the blue glass front."
+      ],
+      "hours": [{ "days": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday", "opens": "10:00", "closes": "19:00" }],
+      "googleBusinessUrl": ""
+    },
+    {
+      "slug": "kochi",
+      "name": "Kochi",
+      "fullName": "Wayfarer Kochi, Kakkanad",
+      "city": "Kochi",
+      "cityCode": "COK",
+      "state": "Kerala",
+      "phone": "+919876543213",
+      "phoneDisplay": "+91 98765 43213",
+      "whatsapp": "+919876543213",
+      "addressLines": ["Level 3, Backwater Business Centre", "Seaport-Airport Road, Kakkanad", "Kochi, Kerala 682030"],
+      "streetAddress": "Level 3, Backwater Business Centre, Seaport-Airport Road, Kakkanad",
+      "locality": "Kochi",
+      "postalCode": "682030",
+      "geo": { "lat": 10.0159, "lng": 76.3419 },
+      "mapEmbed": "https://maps.google.com/maps?q=Kakkanad%2C%20Kochi&t=m&z=14&output=embed",
+      "mapLink": "https://www.google.com/maps/search/?api=1&query=Kakkanad%2C%20Kochi",
+      "landmarks": [
+        "The office is on Seaport-Airport Road in Kakkanad.",
+        "Backwater Business Centre has visitor parking at the front."
+      ],
+      "hours": [{ "days": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday", "opens": "10:00", "closes": "19:00" }],
+      "googleBusinessUrl": ""
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "slug": "australia",
+  "name": "Australia",
+  "longName": "Australia",
+  "code": "AUS",
+  "path": "/study-in-australia/",
+  "currency": "AUD",
+  "region": "Oceania",
+  "meta": {
+    "title": "Study in Australia from India: visa funds, intakes, work rights",
+    "description": "The living cost amount for the Australian Student visa in rupees, February and July intakes, English test scores for the visa, work hours and the Temporary Graduate visa."
+  },
+  "summary": "Two intakes a year, 48 hours of work a fortnight during term, and 2 to 3 years of work rights after a degree.",
+  "whyReasons": [
+    {
+      "text": "You can start in Semester 1 (February or March) or Semester 2 (July), so missing one intake does not cost you a full year.",
+      "source": "https://www.studyaustralia.gov.au/en/tools-and-resources/tips-and-advice-for-students/understanding-mid-year-entry",
+      "lastVerified": "2026-10-01"
+    },
+    {
+      "text": "Graduates with an Australian degree can apply for the Temporary Graduate visa, usually for 2 to 3 years depending on the qualification.",
+      "source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-graduate-485",
+      "lastVerified": "2026-10-01"
+    },
+    {
+      "text": "Students can work up to 48 hours a fortnight during term, and unlimited hours during scheduled course breaks.",
+      "source": "https://www.studyaustralia.gov.au/en/plan-your-move/your-guide-to-visas/student-visa-subclass-500",
+      "lastVerified": "2026-10-01"
+    }
+  ],
+  "costs": {
+    "tuition": {
+      "ug": null,
+      "pg": null
+    },
+    "living": {
+      "tiers": [
+        {
+          "id": "all",
+          "label": "Anywhere in Australia",
+          "min": 29710,
+          "max": null,
+          "currency": "AUD",
+          "period": "year",
+          "kind": "minimum"
+        }
+      ],
+      "note": "This is the 12-month living cost the Department of Home Affairs asks a student to show for the visa. Real costs can be higher, especially in Sydney and Melbourne.",
+      "source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+      "lastVerified": "2026-10-01"
+    },
+    "visaFunds": {
+      "text": "Show AUD 29,710 for 12 months of living costs, plus the first 12 months of course fees and travel (AUD 2,000 from India). The visa application charge is from AUD 2,500.",
+      "source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+      "lastVerified": "2026-10-01"
+    }
+  },
+  "intakes": {
+    "items": [
+      {
+        "id": "feb",
+        "label": "February or March (Semester 1)",
+        "startMonth": 2,
+        "main": true
+      },
+      {
+        "id": "jul",
+        "label": "July (Semester 2)",
+        "startMonth": 7,
+        "main": false
+      }
+    ],
+    "applyBy": [
+      {
+        "intakeId": "jul",
+        "text": "Applications for July starts usually open around April.",
+        "date": null,
+        "level": "all"
+      }
+    ],
+    "note": "Not every course offers a July start. Check the course you want.",
+    "source": "https://www.studyaustralia.gov.au/en/tools-and-resources/tips-and-advice-for-students/understanding-mid-year-entry",
+    "lastVerified": "2026-10-01"
+  },
+  "requirements": {
+    "ug": {
+      "academics": null,
+      "english": {
+        "text": "Student visa minimum for tests taken on or after 7 August 2025: IELTS Academic 6.0, PTE Academic 47, TOEFL iBT 67. Universities often ask for more. Online at-home tests are not accepted for the visa.",
+        "source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+        "lastVerified": "2026-10-01"
+      },
+      "tests": null
+    },
+    "pg": {
+      "academics": null,
+      "english": {
+        "text": "Student visa minimum for tests taken on or after 7 August 2025: IELTS Academic 6.0, PTE Academic 47, TOEFL iBT 67. Universities often ask for more. Online at-home tests are not accepted for the visa.",
+        "source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+        "lastVerified": "2026-10-01"
+      },
+      "tests": null
+    }
+  },
+  "englishMinimum": {
+    "ielts": 6.0,
+    "pte": 47,
+    "toefl": 67,
+    "basis": "Australian Student visa minimum, overall score",
+    "source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+    "lastVerified": "2026-10-01"
+  },
+  "workRights": {
+    "duringStudy": {
+      "text": "Up to 48 hours a fortnight during study periods. Unlimited hours during scheduled course breaks.",
+      "source": "https://www.studyaustralia.gov.au/en/plan-your-move/your-guide-to-visas/student-visa-subclass-500",
+      "lastVerified": "2026-10-01"
+    },
+    "afterStudy": {
+      "text": "Temporary Graduate visa (subclass 485), Post-Higher Education Work stream: usually 2 to 3 years depending on your qualification. You must be 35 or under when you apply. Graduates of regional campuses may get a second visa of 1 to 2 years.",
+      "source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-graduate-485",
+      "lastVerified": "2026-10-01"
+    }
+  },
+  "pr": {
+    "text": "Skilled Independent visa (subclass 189), points-tested stream: a permanent visa for invited workers. You need an occupation on the skilled occupation list, a positive skills assessment, an invitation, a score of 65 points or more, and you must be under 45 when invited.",
+    "source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skilled-independent-189/points-tested",
+    "lastVerified": "2026-10-01"
+  },
+  "popularCourses": [
+    "Data Science",
+    "Information Technology",
+    "Project Management",
+    "Engineering Management",
+    "Professional Accounting",
+    "Business (BBA)"
+  ],
+  "scholarships": [],
+  "faq": [
+    {
+      "q": "How much money do I need to show for an Australian Student visa?",
+      "a": "AUD 29,710 for 12 months of living costs, plus your first year of course fees and travel costs. Your parents can instead show a combined income of at least AUD 87,856 in the last 12 months."
+    },
+    {
+      "q": "What IELTS score do I need for the visa?",
+      "a": "For tests taken on or after 7 August 2025, the visa minimum is IELTS Academic 6.0 (or PTE Academic 47, TOEFL iBT 67). Your university may ask for a higher score."
+    },
+    {
+      "q": "Can I start in July?",
+      "a": "Many courses have a July start (Semester 2). Applications usually open around April. Not every course offers it."
+    },
+    {
+      "q": "Can I stay and work after graduating?",
+      "a": "Degree graduates can apply for the Temporary Graduate visa, usually for 2 to 3 years. You must be 35 or under when you apply."
+    }
+  ],
+  "boardWork": "2 to 3 yrs"
+}

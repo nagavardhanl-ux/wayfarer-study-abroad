@@ -1,0 +1,197 @@
+{
+  "slug": "uk",
+  "name": "UK",
+  "longName": "the UK",
+  "code": "GBR",
+  "path": "/study-in-uk/",
+  "currency": "GBP",
+  "region": "Europe",
+  "meta": {
+    "title": "Study in the UK from India: costs, intakes, Graduate visa",
+    "description": "UK tuition and living costs in rupees, September intake dates, English requirements, the Graduate visa after study and how Wayfarer helps students from Bengaluru, Chennai, Pune and Kochi."
+  },
+  "summary": "One-year master's degrees, a work visa after graduation, and universities that can check your English themselves.",
+  "whyReasons": [
+    {
+      "text": "Most master's degrees take one year of full-time study. You pay one year of fees and one year of living costs instead of two.",
+      "source": "https://study-uk.britishcouncil.org/moving-uk/cost-studying",
+      "lastVerified": "2026-10-01"
+    },
+    {
+      "text": "After a bachelor's or master's degree you can apply for the Graduate visa and stay to work. It lasts 2 years if you apply on or before 31 December 2026, and 18 months if you apply from 1 January 2027.",
+      "source": "https://www.gov.uk/graduate-visa",
+      "lastVerified": "2026-10-01"
+    },
+    {
+      "text": "For degree-level study, your university can assess your English itself. Some universities accept other evidence in place of a separate test.",
+      "source": "https://www.gov.uk/student-visa/knowledge-of-english",
+      "lastVerified": "2026-10-01"
+    },
+    {
+      "text": "Once your course is complete, you can switch to a Skilled Worker visa from inside the UK if an employer sponsors you.",
+      "source": "https://www.gov.uk/skilled-worker-visa/switch-to-this-visa",
+      "lastVerified": "2026-10-01"
+    }
+  ],
+  "costs": {
+    "tuition": {
+      "ug": {
+        "min": 11400,
+        "max": 38000,
+        "currency": "GBP",
+        "period": "year",
+        "kind": "range",
+        "note": "Humanities and social sciences usually cost the least. Lab and clinical degrees cost the most.",
+        "source": "https://study-uk.britishcouncil.org/moving-uk/cost-studying",
+        "lastVerified": "2026-10-01"
+      },
+      "pg": {
+        "min": 9000,
+        "max": 30000,
+        "currency": "GBP",
+        "period": "year",
+        "kind": "range",
+        "note": "Most master's degrees are one year long.",
+        "source": "https://study-uk.britishcouncil.org/moving-uk/cost-studying",
+        "lastVerified": "2026-10-01"
+      }
+    },
+    "living": {
+      "tiers": [
+        {
+          "id": "london",
+          "label": "London",
+          "min": 1300,
+          "max": 1400,
+          "currency": "GBP",
+          "period": "month",
+          "kind": "range"
+        },
+        {
+          "id": "rest",
+          "label": "Rest of the UK",
+          "min": 900,
+          "max": 1300,
+          "currency": "GBP",
+          "period": "month",
+          "kind": "range"
+        }
+      ],
+      "note": "Covers rent, bills, groceries and other living costs for a student without dependants.",
+      "source": "https://study-uk.britishcouncil.org/moving-uk/cost-studying",
+      "lastVerified": "2026-10-01"
+    },
+    "visaFunds": {
+      "text": "For the Student visa you must show £1,529 a month in London or £1,171 a month outside London, for up to 9 months, held for 28 days in a row. This is in addition to unpaid course fees.",
+      "source": "https://www.gov.uk/student-visa/money",
+      "lastVerified": "2026-10-01"
+    }
+  },
+  "intakes": {
+    "items": [
+      {
+        "id": "sep",
+        "label": "September",
+        "startMonth": 9,
+        "main": true
+      }
+    ],
+    "applyBy": [
+      {
+        "intakeId": "sep",
+        "text": "Undergraduate: apply through UCAS by 13 January 2027 (18:00 UK time) for most courses starting September 2027.",
+        "date": "2027-01-13",
+        "level": "ug"
+      }
+    ],
+    "note": "Most courses start in September. Some universities also take students at other times of year; your counsellor will check the course you want.",
+    "source": "https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications",
+    "lastVerified": "2026-10-01"
+  },
+  "requirements": {
+    "ug": {
+      "academics": null,
+      "english": {
+        "text": "English at CEFR level B2 for the Student visa. With a Secure English Language Test this means IELTS for UKVI 5.5 or PTE Academic UKVI 59 in each part. Your university may ask for a higher score, or test you itself.",
+        "source": "https://www.gov.uk/guidance/prove-your-english-language-abilities-with-a-secure-english-language-test-selt",
+        "lastVerified": "2026-10-01"
+      },
+      "tests": null
+    },
+    "pg": {
+      "academics": null,
+      "english": {
+        "text": "English at CEFR level B2 for the Student visa. With a Secure English Language Test this means IELTS for UKVI 5.5 or PTE Academic UKVI 59 in each part. Your university may ask for a higher score, or test you itself.",
+        "source": "https://www.gov.uk/guidance/prove-your-english-language-abilities-with-a-secure-english-language-test-selt",
+        "lastVerified": "2026-10-01"
+      },
+      "tests": null
+    }
+  },
+  "englishMinimum": {
+    "ielts": 5.5,
+    "pte": 59,
+    "basis": "UK Student visa minimum (CEFR B2), per part",
+    "source": "https://www.gov.uk/guidance/prove-your-english-language-abilities-with-a-secure-english-language-test-selt",
+    "lastVerified": "2026-10-01"
+  },
+  "workRights": {
+    "duringStudy": null,
+    "afterStudy": {
+      "text": "Graduate visa: 2 years if you apply on or before 31 December 2026, 18 months if you apply on or after 1 January 2027. PhD graduates get 3 years.",
+      "source": "https://www.gov.uk/graduate-visa",
+      "lastVerified": "2026-10-01"
+    }
+  },
+  "pr": {
+    "text": "Settlement (indefinite leave to remain) usually needs 5 years of living and working in the UK, for example on a Skilled Worker visa. Time on a Student visa does not count towards those 5 years.",
+    "source": "https://www.gov.uk/indefinite-leave-to-remain",
+    "lastVerified": "2026-10-01"
+  },
+  "popularCourses": [
+    "MBA",
+    "Data Science",
+    "Cyber Security",
+    "Computer Science",
+    "AI and Robotics",
+    "Construction Management",
+    "Electrical and Electronics Engineering",
+    "Biomedical Science"
+  ],
+  "scholarships": [
+    {
+      "name": "Chevening Scholarships",
+      "text": "UK government scholarship for a one-year master's degree. Check the Chevening site for this year's eligibility and dates.",
+      "url": "https://www.chevening.org/scholarships/"
+    },
+    {
+      "name": "GREAT Scholarships",
+      "text": "Scholarships towards one-year postgraduate fees at participating UK universities. The list of universities and subjects changes each year.",
+      "url": "https://study-uk.britishcouncil.org/scholarships-funding/great-scholarships"
+    },
+    {
+      "name": "Commonwealth Scholarships",
+      "text": "Master's and PhD scholarships for students from Commonwealth countries, including India.",
+      "url": "https://www.britishcouncil.in/study-uk/scholarships/commonwealth-scholarships"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How much money do I need to show for a UK Student visa?",
+      "a": "You must show your unpaid course fees plus living costs of £1,529 a month in London or £1,171 a month elsewhere, for up to 9 months. The money must stay in the account for at least 28 days in a row."
+    },
+    {
+      "q": "Can I work in the UK after my master's?",
+      "a": "Yes, through the Graduate visa. If you apply on or before 31 December 2026 it lasts 2 years. From 1 January 2027 it lasts 18 months. You do not need a job offer to apply."
+    },
+    {
+      "q": "Do I need IELTS for the UK?",
+      "a": "You need English at CEFR level B2. Many students show this with IELTS for UKVI 5.5 in each part. Universities can also assess your English themselves for degree courses, so ask your counsellor what your chosen university accepts."
+    },
+    {
+      "q": "When should I apply for September?",
+      "a": "For undergraduate courses, the UCAS deadline for September 2027 is 13 January 2027. For master's courses, universities set their own dates. Start about a year before you want to travel."
+    }
+  ],
+  "boardWork": "2 yrs (18 mo from 2027)"
+}

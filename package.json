@@ -1,0 +1,33 @@
+{
+  "name": "wayfarer-site",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "prebuild": "node scripts/check-content.mjs",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "check:content": "node scripts/check-content.mjs",
+    "check:links": "node scripts/check-links.mjs",
+    "gaps": "node scripts/content-gaps.mjs"
+  },
+  "dependencies": {
+    "cobe": "^2.0.1",
+    "country-flag-icons": "^1.6.20",
+    "next": "16.3.8",
+    "next-mdx-remote": "6.0.0",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "remark-gfm": "^4.0.1",
+    "zod": "4.3.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "tailwindcss": "4.3.3",
+    "typescript": "^5"
+  }
+}

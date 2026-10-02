@@ -1,0 +1,107 @@
+{
+  "slug": "malta",
+  "name": "Malta",
+  "longName": "Malta",
+  "code": "MLT",
+  "path": "/study-in-malta/",
+  "currency": "EUR",
+  "region": "Europe",
+  "meta": {
+    "title": "Study in Malta from India: funds, work hours, post-study permit",
+    "description": "Study in Malta, an EU country. Malta's student fund rules in rupees, 20 hours of work a week after 90 days, and the 9-month post-study permit."
+  },
+  "summary": "An EU country with part-time work after 90 days and a 9-month permit to find a job after graduating.",
+  "whyReasons": [
+    {
+      "text": "After your first 90 days, you can work up to 20 hours a week while your student permit is valid.",
+      "source": "https://identita.gov.mt/frequently-asked-questions/expatriates/non-eu-non-employment/study/",
+      "lastVerified": "2026-10-01"
+    },
+    {
+      "text": "After graduating (MQF level 5 or higher), you can apply for a one-time permit to stay up to 9 months to look for a job.",
+      "source": "https://identita.gov.mt/frequently-asked-questions/expatriates/non-eu-non-employment/study/",
+      "lastVerified": "2026-10-01"
+    }
+  ],
+  "costs": {
+    "tuition": {
+      "ug": null,
+      "pg": null
+    },
+    "living": {
+      "tiers": [
+        {
+          "id": "all",
+          "label": "Anywhere in Malta",
+          "min": 950,
+          "max": null,
+          "currency": "EUR",
+          "period": "month",
+          "kind": "minimum"
+        }
+      ],
+      "note": "Minimum balance for the e-Residence Permit after you arrive. The University of Malta notes this does not fully cover accommodation and living costs.",
+      "source": "https://www.um.edu.mt/international/students/visas/",
+      "lastVerified": "2026-10-01"
+    },
+    "visaFunds": {
+      "text": "For the long-stay visa, show at least 75% of Malta's national minimum wage for each month of study. After arrival, the e-Residence Permit needs a balance of at least €950 for each month of your stay, not counting tuition fees.",
+      "source": "https://www.um.edu.mt/international/students/visas/",
+      "lastVerified": "2026-10-01"
+    }
+  },
+  "intakes": null,
+  "requirements": {
+    "ug": {
+      "academics": null,
+      "english": null,
+      "tests": null
+    },
+    "pg": {
+      "academics": null,
+      "english": null,
+      "tests": null
+    }
+  },
+  "englishMinimum": null,
+  "workRights": {
+    "duringStudy": {
+      "text": "Up to 20 hours a week after the first 90 days, while your study residence permit is valid.",
+      "source": "https://identita.gov.mt/frequently-asked-questions/expatriates/non-eu-non-employment/study/",
+      "lastVerified": "2026-10-01"
+    },
+    "afterStudy": {
+      "text": "A one-time post-study residence permit of up to 9 months to look for a job, for graduates of MQF level 5 or higher courses in Malta.",
+      "source": "https://identita.gov.mt/frequently-asked-questions/expatriates/non-eu-non-employment/study/",
+      "lastVerified": "2026-10-01"
+    }
+  },
+  "pr": null,
+  "popularCourses": [
+    "Business Administration",
+    "Hospitality Management",
+    "Information Technology",
+    "Data Analytics",
+    "Health Care Management"
+  ],
+  "scholarships": [],
+  "faq": [
+    {
+      "q": "How much money do I need to show for Malta?",
+      "a": "For the visa, at least 75% of Malta's national minimum wage for each month of study. After you arrive, at least €950 for each month of your stay for the e-Residence Permit, not counting tuition."
+    },
+    {
+      "q": "Can I work while studying in Malta?",
+      "a": "Yes, up to 20 hours a week after your first 90 days."
+    },
+    {
+      "q": "Can I stay in Malta after my course?",
+      "a": "Graduates of MQF level 5 or higher courses can apply once for a permit of up to 9 months to look for a job."
+    },
+    {
+      "q": "What does a master's in Malta cost?",
+      "a": "Fees depend on the institution and course. Your counsellor will give you the published fee for each course on your shortlist."
+    }
+  ],
+  "boardWork": "9 months"
+}

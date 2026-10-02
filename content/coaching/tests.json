@@ -1,0 +1,183 @@
+{
+  "_help": "One entry per test page at /coaching/<slug>/. 'format' facts come from the official test owner; keep 'source' and 'lastVerified' up to date. 'scoreBands' only lists thresholds published by a government or university, with the source. 'batches' is information from Wayfarer itself: set confirmed to true once the team has checked it.",
+  "batches": {
+    "confirmed": false,
+    "options": [
+      { "id": "online", "name": "Online batch", "text": "Live classes on your phone or laptop, with practice tests marked by a trainer." },
+      { "id": "branch", "name": "Classroom batch at a branch", "text": "Classes at your nearest Wayfarer branch, with timings around college and work hours." }
+    ]
+  },
+  "tests": [
+    {
+      "slug": "ielts",
+      "name": "IELTS",
+      "fullName": "International English Language Testing System",
+      "kind": "English test",
+      "owner": "IELTS (British Council, IDP, Cambridge)",
+      "whoFor": "Students applying to the UK, Australia, Canada, Ireland, New Zealand and many US universities. IELTS for UKVI is the version used for UK visa purposes.",
+      "format": {
+        "duration": "2 hours 45 minutes",
+        "sections": [
+          { "name": "Listening", "detail": "30 minutes, 4 recordings, 40 questions" },
+          { "name": "Reading", "detail": "60 minutes, 40 questions" },
+          { "name": "Writing", "detail": "60 minutes, 2 tasks" },
+          { "name": "Speaking", "detail": "11 to 14 minutes, face to face, 3 parts" }
+        ],
+        "scoring": "Band 0 to 9 for each part, in half bands. The overall band is the average of the four parts.",
+        "source": "https://www.ielts.org/en-us/for-test-takers/test-format",
+        "lastVerified": "2026-10-01"
+      },
+      "scoreBands": [
+        { "label": "UK Student visa (CEFR B2), IELTS for UKVI", "value": "5.5 in each part", "source": "https://www.gov.uk/guidance/prove-your-english-language-abilities-with-a-secure-english-language-test-selt", "lastVerified": "2026-10-01" },
+        { "label": "Australia Student visa, IELTS Academic", "value": "6.0 overall", "source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500", "lastVerified": "2026-10-01" }
+      ],
+      "faq": [
+        { "q": "Which IELTS should I book for a UK student visa?", "a": "If your university asks for a Secure English Language Test, book IELTS for UKVI (Academic). Many universities assess English themselves for degree courses and accept regular IELTS Academic, so check with your counsellor first." },
+        { "q": "How long is an IELTS score valid?", "a": "Universities and visa offices usually accept scores up to 2 years old. Check the rule for your university." }
+      ]
+    },
+    {
+      "slug": "pte",
+      "name": "PTE",
+      "fullName": "Pearson Test of English Academic",
+      "kind": "English test",
+      "owner": "Pearson",
+      "whoFor": "Students applying to Australia, New Zealand, the UK and universities that accept PTE. The whole test, including speaking, is taken on a computer.",
+      "format": {
+        "duration": "About 2 hours, on a computer",
+        "sections": [
+          { "name": "Speaking and Writing", "detail": "76 to 84 minutes" },
+          { "name": "Reading", "detail": "23 to 30 minutes" },
+          { "name": "Listening", "detail": "Final part of the same sitting" }
+        ],
+        "scoring": "10 to 90 overall, on Pearson's Global Scale of English.",
+        "source": "https://www.pearsonpte.com/pte-academic/",
+        "lastVerified": "2026-10-01"
+      },
+      "scoreBands": [
+        { "label": "UK Student visa (CEFR B2), PTE Academic UKVI", "value": "59 in each part", "source": "https://www.gov.uk/guidance/prove-your-english-language-abilities-with-a-secure-english-language-test-selt", "lastVerified": "2026-10-01" },
+        { "label": "Australia Student visa, PTE Academic", "value": "47 overall", "source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500", "lastVerified": "2026-10-01" }
+      ],
+      "faq": [
+        { "q": "Is PTE easier than IELTS?", "a": "Neither is easier for everyone. PTE is fully computer-based, including speaking. Some students prefer that; others prefer speaking to a person. A free demo class helps you decide." }
+      ]
+    },
+    {
+      "slug": "toefl",
+      "name": "TOEFL",
+      "fullName": "TOEFL iBT",
+      "kind": "English test",
+      "owner": "ETS",
+      "whoFor": "Students applying mainly to US universities, and to other universities that accept TOEFL.",
+      "format": {
+        "duration": "About 2 hours",
+        "sections": [
+          { "name": "Reading", "detail": "About 35 minutes" },
+          { "name": "Listening", "detail": "About 36 minutes" },
+          { "name": "Speaking", "detail": "About 16 minutes" },
+          { "name": "Writing", "detail": "About 29 minutes" }
+        ],
+        "scoring": "From 21 January 2026, scores are reported on a 1 to 6 scale in half points, aligned to CEFR. Until January 2028 you also get a comparable score on the old 0 to 120 scale.",
+        "source": "https://www.ets.org/toefl/institutions/ibt/score-scale-update.html",
+        "lastVerified": "2026-10-01"
+      },
+      "scoreBands": [
+        { "label": "Australia Student visa, TOEFL iBT (0 to 120 scale)", "value": "67 overall. Select 'Taking TOEFL for Australia' when you register.", "source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500", "lastVerified": "2026-10-01" }
+      ],
+      "faq": [
+        { "q": "My university asks for TOEFL 90. What is that on the new scale?", "a": "Your score report shows both scales until January 2028, so you can compare directly. ETS publishes a concordance table on its website." }
+      ]
+    },
+    {
+      "slug": "duolingo",
+      "name": "Duolingo English Test",
+      "fullName": "Duolingo English Test (DET)",
+      "kind": "English test",
+      "owner": "Duolingo",
+      "whoFor": "Students applying to universities that accept DET, mostly in the US. It is taken online at home. Check that your university and visa route accept it before booking.",
+      "format": {
+        "duration": "About 1 hour, online",
+        "sections": [
+          { "name": "Setup and ID check", "detail": "5 minutes" },
+          { "name": "Adaptive test", "detail": "45 minutes, mixed reading, writing, listening and speaking tasks" },
+          { "name": "Writing and speaking samples", "detail": "10 minutes, sent to universities" }
+        ],
+        "scoring": "10 to 160 overall, in 5-point steps, with subscores.",
+        "source": "https://englishtest.duolingo.com/scores",
+        "lastVerified": "2026-10-01"
+      },
+      "scoreBands": [],
+      "faq": [
+        { "q": "Can I use Duolingo for an Australian student visa?", "a": "No. Australia does not accept English tests taken fully online at home for visa purposes." }
+      ]
+    },
+    {
+      "slug": "gre",
+      "name": "GRE",
+      "fullName": "GRE General Test",
+      "kind": "Graduate admission test",
+      "owner": "ETS",
+      "whoFor": "Students applying for master's and PhD programmes, mostly in the US. Some universities have made it optional; check each course.",
+      "format": {
+        "duration": "1 hour 58 minutes",
+        "sections": [
+          { "name": "Analytical Writing", "detail": "1 essay, 30 minutes" },
+          { "name": "Verbal Reasoning", "detail": "2 sections, 41 minutes in total" },
+          { "name": "Quantitative Reasoning", "detail": "2 sections, 47 minutes in total" }
+        ],
+        "scoring": "Verbal and Quant: 130 to 170 each. Analytical Writing: 0 to 6 in half points.",
+        "source": "https://www.ets.org/gre/test-takers/general-test/prepare/test-structure.html",
+        "lastVerified": "2026-10-01"
+      },
+      "scoreBands": [],
+      "faq": [
+        { "q": "Is GRE compulsory for a US master's?", "a": "Not always. Many universities have made it optional for some programmes. A good score can still help with admission and scholarships." }
+      ]
+    },
+    {
+      "slug": "gmat",
+      "name": "GMAT",
+      "fullName": "GMAT Focus Edition",
+      "kind": "Business school admission test",
+      "owner": "GMAC",
+      "whoFor": "Students applying for MBA and business master's programmes.",
+      "format": {
+        "duration": "2 hours 15 minutes, plus an optional 10-minute break",
+        "sections": [
+          { "name": "Quantitative Reasoning", "detail": "45 minutes" },
+          { "name": "Verbal Reasoning", "detail": "45 minutes" },
+          { "name": "Data Insights", "detail": "45 minutes" }
+        ],
+        "scoring": "Total score 205 to 805. Each section is scored 60 to 90 and counts equally.",
+        "source": "https://www.mba.com/exams-and-exam-prep/gmat-exam/everything-you-need-to-know-about-gmat",
+        "lastVerified": "2026-10-01"
+      },
+      "scoreBands": [],
+      "faq": [
+        { "q": "Can I choose the order of sections?", "a": "Yes. You can take the three sections in any order, and review and change up to three answers per section." }
+      ]
+    },
+    {
+      "slug": "sat",
+      "name": "SAT",
+      "fullName": "Digital SAT",
+      "kind": "Undergraduate admission test",
+      "owner": "College Board",
+      "whoFor": "12th class students applying for bachelor's degrees in the US.",
+      "format": {
+        "duration": "2 hours 14 minutes",
+        "sections": [
+          { "name": "Reading and Writing", "detail": "64 minutes" },
+          { "name": "Math", "detail": "70 minutes" }
+        ],
+        "scoring": "400 to 1600 total. Each section is scored 200 to 800.",
+        "source": "https://satsuite.collegeboard.org/sat/whats-on-the-test/structure",
+        "lastVerified": "2026-10-01"
+      },
+      "scoreBands": [],
+      "faq": [
+        { "q": "When should I take the SAT?", "a": "Ideally in Class 11 or early Class 12, so you have time to retake it before US application deadlines (usually November to January)." }
+      ]
+    }
+  ]
+}

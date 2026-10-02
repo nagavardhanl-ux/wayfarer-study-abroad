@@ -1,0 +1,47 @@
+{
+  "slug": "sop-writing",
+  "path": "/sop-writing/",
+  "name": "SOP writing",
+  "short": "Help writing a statement of purpose in your own words, for each university.",
+  "meta": {
+    "title": "SOP writing help for study abroad applications",
+    "description": "Write a statement of purpose that explains your study plan, your background and your goals in your own words. Wayfarer counsellors guide and review every draft."
+  },
+  "h1": "Your statement of purpose explains why this course, this university, and you.",
+  "intro": "Admissions teams and visa officers read your SOP to understand your plan. We help you write it in your own words and check it against each university's instructions.",
+  "covers": [
+    "A first conversation to find your story: background, interests and career plan",
+    "A structure that answers what the university asks",
+    "Reviews of each draft, with clear comments",
+    "Versions for each university on your shortlist",
+    "Letters of recommendation guidance for your referees",
+    "CV or resume formatting for applications"
+  ],
+  "whoFor": [
+    "Students applying for bachelor's, master's or MBA programmes",
+    "Students whose study gap or change of subject needs explaining",
+    "Students reapplying after a refusal"
+  ],
+  "steps": [
+    { "title": "Plan", "text": "A counsellor asks about your studies, work, interests and goals." },
+    { "title": "Draft", "text": "You write a first draft using our outline. We never hand you a copied template." },
+    { "title": "Review", "text": "We check clarity, structure, word limits and each university's prompts." },
+    { "title": "Finalise", "text": "You approve the final version for each application." }
+  ],
+  "sections": [
+    {
+      "heading": "Why the SOP must be your own",
+      "paragraphs": [
+        "Universities and visa officers can spot copied or generic statements. Your SOP should describe your own reasons and plans. We guide and edit; you stay the author."
+      ]
+    }
+  ],
+  "tools": [
+    { "label": "Free profile check", "href": "/free-profile-check/" }
+  ],
+  "videoId": "NOenTLmz6s8",
+  "faq": [
+    { "q": "How long should an SOP be?", "a": "It depends on the university. Many ask for 500 to 1,000 words. Always follow the word limit on the application." },
+    { "q": "Can I use the same SOP for every university?", "a": "Keep the core story, but change the course and university details for each one. Generic SOPs are weaker." }
+  ]
+}

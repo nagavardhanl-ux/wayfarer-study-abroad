@@ -1,0 +1,4 @@
+{
+  "_help": "YouTube videos shown on the home page, country pages and blog posts. Add your own channel's videos here: id, title, published (YYYY-MM-DD), tags (country or topic slugs), topicPage, language, featurable. Sections hide while the list is empty.",
+  "videos": []
+}

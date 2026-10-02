@@ -1,0 +1,116 @@
+{
+  "slug": "visit-visas",
+  "path": "/visit-visas/",
+  "name": "Visit visas",
+  "short": "Tourist, family visit and business visit visas for the USA, UK, Canada, Australia and Europe.",
+  "meta": {
+    "title": "Visit visas: USA, UK, Canada, Australia and Schengen",
+    "description": "Tourist, family visit and business visitor visas from Bengaluru, Chennai, Pune and Kochi. Official stay limits and fees for the UK, Canada, Australia and Schengen, US B1/B2 steps, and how Wayfarer prepares your file."
+  },
+  "h1": "A visit visa needs a clear purpose and proof you will come back.",
+  "intro": "We help families visit children studying abroad, tourists and business travellers prepare complete visit visa applications. The embassy makes the decision.",
+  "covers": [
+    "Tourist visits and holidays",
+    "Family visits, including parents visiting a student or a relative",
+    "Short business trips and events",
+    "Forms, appointments and the document checklist",
+    "Interview practice for the US B1/B2 visa"
+  ],
+  "whoFor": [
+    "Parents visiting a son or daughter studying abroad",
+    "Families visiting relatives",
+    "Tourists and business travellers"
+  ],
+  "steps": [
+    { "title": "Purpose and checklist", "text": "We confirm the right visa type and prepare the official document list." },
+    { "title": "Forms and fees", "text": "We help complete the online form and pay the fee on the official website." },
+    { "title": "Appointment", "text": "Biometrics, and an interview where the country requires one." },
+    { "title": "Interview practice", "text": "For the US B1/B2 visa, we practise the questions with you." }
+  ],
+  "sections": [
+    {
+      "id": "usa",
+      "heading": "USA: B1/B2 visitor visa",
+      "facts": [
+        {
+          "label": "How to apply",
+          "text": "Complete the DS-160 online application, then book and attend your appointment at the US Embassy in New Delhi or a consulate, including Chennai. B1/B2 applicants appear in person for biometrics and the interview. Some applicants renewing the same visa class may qualify for an interview waiver.",
+          "source": "https://in.usembassy.gov/apply-for-a-nonimmigrant-visa/",
+          "lastVerified": "2026-10-01"
+        }
+      ]
+    },
+    {
+      "id": "uk",
+      "heading": "UK: Standard Visitor visa",
+      "facts": [
+        {
+          "label": "Stay and fee",
+          "text": "You can usually stay up to 6 months. The visa costs £135 for up to 6 months. You cannot do paid or unpaid work for a UK company.",
+          "source": "https://www.gov.uk/standard-visitor",
+          "lastVerified": "2026-10-01"
+        }
+      ]
+    },
+    {
+      "id": "canada",
+      "heading": "Canada: visitor visa",
+      "facts": [
+        {
+          "label": "Stay",
+          "text": "Most visitors can stay for up to 6 months. The border officer decides the exact length when you arrive.",
+          "source": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/about-visitor-visa.html",
+          "lastVerified": "2026-10-01"
+        }
+      ]
+    },
+    {
+      "id": "australia",
+      "heading": "Australia: Visitor visa (subclass 600)",
+      "facts": [
+        {
+          "label": "Tourist stream",
+          "text": "For holidays and visiting family and friends. Stay of 3, 6 or up to 12 months. Costs from AUD 250 when applying outside Australia.",
+          "source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600",
+          "lastVerified": "2026-10-01"
+        },
+        {
+          "label": "Sponsored family stream",
+          "text": "For people sponsored, usually by a family member in Australia. Stay up to 12 months. Costs AUD 250.",
+          "source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600",
+          "lastVerified": "2026-10-01"
+        },
+        {
+          "label": "Business visitor stream",
+          "text": "For short business visits. Stay up to 3 months. Costs AUD 250. You cannot work or sell goods or services.",
+          "source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600",
+          "lastVerified": "2026-10-01"
+        }
+      ]
+    },
+    {
+      "id": "schengen",
+      "heading": "Europe: Schengen visa",
+      "facts": [
+        {
+          "label": "Stay",
+          "text": "A short-stay Schengen visa allows visits of up to 90 days in any 180-day period, and is generally valid for every Schengen country.",
+          "source": "https://home-affairs.ec.europa.eu/policies/schengen/visa-policy_en",
+          "lastVerified": "2026-10-01"
+        },
+        {
+          "label": "How to apply",
+          "text": "Apply at the consulate of the country you intend to visit, at least 15 days and no earlier than 6 months before your trip. The fee is €90 for adults, and the normal processing time is 15 days. You need travel medical insurance covering emergency care, hospital treatment and repatriation.",
+          "source": "https://home-affairs.ec.europa.eu/policies/schengen/visa-policy/applying-schengen-visa_en",
+          "lastVerified": "2026-10-01"
+        }
+      ]
+    }
+  ],
+  "tools": [{ "label": "Contact a branch", "href": "/branches/" }],
+  "videoId": "1sqnnivr-vU",
+  "faq": [
+    { "q": "Can I work on a visit visa?", "a": "No. Visit visas do not allow you to work. Some allow limited business activities such as meetings." },
+    { "q": "My B1/B2 visa was refused. Can I apply again?", "a": "Yes. Understand why it was refused, change what you can, and apply again when your situation shows clearer ties to India. We help you prepare." }
+  ]
+}

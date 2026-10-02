@@ -1,0 +1,43 @@
+{
+  "slug": "scholarships",
+  "path": "/scholarships/",
+  "name": "Scholarships",
+  "short": "Government and university scholarships open to students from India.",
+  "meta": {
+    "title": "Scholarships for Indian students to study abroad",
+    "description": "Government scholarships for students from India in the UK, USA, Ireland, Germany, Canada and Singapore, and how Wayfarer helps you find and apply for university scholarships."
+  },
+  "h1": "Scholarships lower the cost, and most need an early application.",
+  "intro": "We match your profile to government and university scholarships, and plan applications early so you do not miss deadlines.",
+  "covers": [
+    "Government scholarships for students from India",
+    "Merit scholarships offered by universities",
+    "Application fee waivers where available",
+    "Scholarship essays and documents",
+    "Deadlines planned into your application timeline"
+  ],
+  "whoFor": [
+    "Students with strong marks or test scores",
+    "Students applying a year or more in advance",
+    "Families who want to reduce the loan amount"
+  ],
+  "steps": [
+    { "title": "Check your profile", "text": "We see which scholarships your marks, course and country qualify for." },
+    { "title": "Plan the deadlines", "text": "Many scholarships close months before the course starts." },
+    { "title": "Prepare the application", "text": "Essays, references and documents for each scholarship." },
+    { "title": "Apply with your admission", "text": "Some university scholarships are decided with your admission; others need a separate form." }
+  ],
+  "sections": [
+    {
+      "id": "government",
+      "heading": "Government scholarships by country",
+      "countryScholarships": true
+    }
+  ],
+  "tools": [{ "label": "Cost calculator", "href": "/tools/cost-calculator/" }],
+  "videoId": "",
+  "faq": [
+    { "q": "Can a scholarship cover the full cost?", "a": "A few government scholarships cover fees and living costs. Most university scholarships cover part of the tuition. Plan for the rest with savings or a loan." },
+    { "q": "When should I apply?", "a": "As early as possible. Many scholarship deadlines are six to twelve months before the course starts." }
+  ]
+}

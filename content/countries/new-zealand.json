@@ -1,0 +1,140 @@
+{
+  "slug": "new-zealand",
+  "name": "New Zealand",
+  "longName": "New Zealand",
+  "code": "NZL",
+  "path": "/study-in-new-zealand/",
+  "currency": "NZD",
+  "region": "Oceania",
+  "meta": {
+    "title": "Study in New Zealand from India: fees, living costs, post-study work",
+    "description": "New Zealand tuition ranges and the NZ$20,000 living cost rule in rupees, February and July intakes, 25 hours of work a week, and the Post Study Work Visa of up to 3 years."
+  },
+  "summary": "Published fee ranges, a NZ$20,000 living cost rule, and up to 3 years of post-study work.",
+  "whyReasons": [
+    {
+      "text": "After a degree at level 7 or higher, studied full-time in New Zealand for at least 30 weeks, you can apply for a Post Study Work Visa of up to 3 years.",
+      "source": "https://www.immigration.govt.nz/visas/post-study-work-visa/",
+      "lastVerified": "2026-10-01"
+    },
+    {
+      "text": "PhD students pay the same fees as New Zealand students, about NZ$6,500 to NZ$7,500 a year for most subjects.",
+      "source": "https://www.studywithnewzealand.govt.nz/en/plan-your-studies/cost-of-living",
+      "lastVerified": "2026-10-01"
+    },
+    {
+      "text": "Most student visas let you work up to 25 hours a week, and full-time in the holidays.",
+      "source": "https://www.studywithnewzealand.govt.nz/en/plan-your-studies/cost-of-living",
+      "lastVerified": "2026-10-01"
+    }
+  ],
+  "costs": {
+    "tuition": {
+      "ug": {
+        "min": 35000,
+        "max": 55000,
+        "currency": "NZD",
+        "period": "year",
+        "kind": "range",
+        "note": "Medicine and veterinary science cost more. Figures updated March 2025.",
+        "source": "https://www.studywithnewzealand.govt.nz/en/plan-your-studies/cost-of-living",
+        "lastVerified": "2026-10-01"
+      },
+      "pg": {
+        "min": 20000,
+        "max": 45000,
+        "currency": "NZD",
+        "period": "year",
+        "kind": "range",
+        "note": "Medicine and veterinary science cost more.",
+        "source": "https://www.studywithnewzealand.govt.nz/en/plan-your-studies/cost-of-living",
+        "lastVerified": "2026-10-01"
+      }
+    },
+    "living": {
+      "tiers": [
+        {
+          "id": "auckland-wellington",
+          "label": "Auckland or Wellington",
+          "min": 20000,
+          "max": 27000,
+          "currency": "NZD",
+          "period": "year",
+          "kind": "range"
+        },
+        {
+          "id": "dunedin",
+          "label": "Dunedin",
+          "min": 18000,
+          "max": 21000,
+          "currency": "NZD",
+          "period": "year",
+          "kind": "range"
+        }
+      ],
+      "note": "Estimates published by Victoria University of Wellington, the University of Auckland and the University of Otago. For the visa you must show at least NZ$20,000 for the first year.",
+      "source": "https://www.studywithnewzealand.govt.nz/en/plan-your-studies/cost-of-living",
+      "lastVerified": "2026-10-01"
+    },
+    "visaFunds": {
+      "text": "Show at least NZ$20,000 for each year of tertiary study (or NZ$1,667 a month for courses under a year), in addition to tuition fees.",
+      "source": "https://www.immigration.govt.nz/process-to-apply/applying-for-a-visa/providing-evidence-and-documents-to-support-your-visa-application/student-fund-requirements/",
+      "lastVerified": "2026-10-01"
+    }
+  },
+  "intakes": null,
+  "requirements": {
+    "ug": {
+      "academics": null,
+      "english": null,
+      "tests": null
+    },
+    "pg": {
+      "academics": null,
+      "english": null,
+      "tests": null
+    }
+  },
+  "englishMinimum": null,
+  "workRights": {
+    "duringStudy": {
+      "text": "Most student visas allow up to 25 hours of work a week, and full-time work in the holidays.",
+      "source": "https://www.studywithnewzealand.govt.nz/en/plan-your-studies/cost-of-living",
+      "lastVerified": "2026-10-01"
+    },
+    "afterStudy": {
+      "text": "Post Study Work Visa: up to 3 years depending on what you studied. You need a degree at level 7 or higher (or an eligible non-degree qualification), studied full-time in New Zealand for at least 30 weeks.",
+      "source": "https://www.immigration.govt.nz/visas/post-study-work-visa/",
+      "lastVerified": "2026-10-01"
+    }
+  },
+  "pr": null,
+  "popularCourses": [
+    "Information Technology",
+    "Engineering",
+    "Business",
+    "Accounting",
+    "Health Sciences",
+    "Agriculture and Food Science"
+  ],
+  "scholarships": [],
+  "faq": [
+    {
+      "q": "How much money do I need for a New Zealand student visa?",
+      "a": "At least NZ$20,000 for each year of study for living costs, plus your tuition fees."
+    },
+    {
+      "q": "What does a master's in New Zealand cost?",
+      "a": "Postgraduate fees range from about NZ$20,000 to NZ$45,000 a year. Medicine and veterinary science cost more."
+    },
+    {
+      "q": "Can I work after studying in New Zealand?",
+      "a": "Yes. With a degree at level 7 or higher, studied full-time in New Zealand for at least 30 weeks, you can apply for a Post Study Work Visa of up to 3 years."
+    },
+    {
+      "q": "Can my family come with me?",
+      "a": "It depends on your course and visa. Our video on New Zealand dependent visa rules explains the options, and your counsellor will check your case."
+    }
+  ],
+  "boardWork": "Up to 3 yrs"
+}

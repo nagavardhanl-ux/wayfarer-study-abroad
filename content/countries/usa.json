@@ -1,0 +1,133 @@
+{
+  "slug": "usa",
+  "name": "USA",
+  "longName": "the USA",
+  "code": "USA",
+  "path": "/study-in-usa/",
+  "currency": "USD",
+  "region": "North America",
+  "meta": {
+    "title": "Study in the USA from India: intakes, OPT, application timeline",
+    "description": "When US courses start, how early to apply, F-1 work rules, OPT and the STEM OPT extension, and Fulbright-Nehru scholarships for students from India."
+  },
+  "summary": "Fall and spring starts, 12 months of OPT after a degree, and 24 more months for STEM graduates.",
+  "whyReasons": [
+    {
+      "text": "After your degree you can work in the US for up to 12 months on OPT. Graduates with an eligible STEM degree can apply for a further 24 months.",
+      "source": "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/optional-practical-training-opt-for-f-1-students",
+      "lastVerified": "2026-10-01"
+    },
+    {
+      "text": "Most courses start in August or September, and some universities also admit students for the spring semester in January.",
+      "source": "https://educationusa.state.gov/experience-studying-usa/us-educational-system",
+      "lastVerified": "2026-10-01"
+    },
+    {
+      "text": "F-1 students can work on campus up to 20 hours a week while classes are running.",
+      "source": "https://studyinthestates.dhs.gov/students/work/working-in-the-united-states",
+      "lastVerified": "2026-10-01"
+    }
+  ],
+  "costs": {
+    "tuition": {
+      "ug": null,
+      "pg": null
+    },
+    "living": null,
+    "visaFunds": null
+  },
+  "intakes": {
+    "items": [
+      {
+        "id": "fall",
+        "label": "Fall (August or September)",
+        "startMonth": 8,
+        "main": true
+      },
+      {
+        "id": "spring",
+        "label": "Spring (January)",
+        "startMonth": 1,
+        "main": false
+      }
+    ],
+    "applyBy": [
+      {
+        "intakeId": "fall",
+        "text": "Undergraduate applications are usually due between November and January for a September start. Start your search 12 to 18 months before you want to enrol.",
+        "date": null,
+        "level": "ug"
+      }
+    ],
+    "note": "Spring admission is offered by some universities only.",
+    "source": "https://educationusa.state.gov/experience-studying-usa/us-educational-system",
+    "lastVerified": "2026-10-01"
+  },
+  "requirements": {
+    "ug": {
+      "academics": null,
+      "english": null,
+      "tests": null
+    },
+    "pg": {
+      "academics": null,
+      "english": null,
+      "tests": null
+    }
+  },
+  "englishMinimum": null,
+  "workRights": {
+    "duringStudy": {
+      "text": "On-campus work up to 20 hours a week while school is in session.",
+      "source": "https://studyinthestates.dhs.gov/students/work/working-in-the-united-states",
+      "lastVerified": "2026-10-01"
+    },
+    "afterStudy": {
+      "text": "Optional Practical Training (OPT): up to 12 months per degree level. Graduates with an eligible STEM degree can apply for a 24-month STEM OPT extension with an E-Verify employer.",
+      "source": "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/optional-practical-training-opt-for-f-1-students",
+      "lastVerified": "2026-10-01"
+    }
+  },
+  "pr": null,
+  "popularCourses": [
+    "Computer Science",
+    "Software Engineering",
+    "Data Science",
+    "Information Technology",
+    "Cyber Security",
+    "Aerospace Engineering",
+    "Mechanical Engineering",
+    "Pharmaceutical Sciences"
+  ],
+  "scholarships": [
+    {
+      "name": "Fulbright-Nehru Master's Fellowships",
+      "text": "Fellowships for Indian students to do a master's in the US, run by the United States-India Educational Foundation.",
+      "url": "https://www.usief.org.in/fulbright-fellowships/fellowships-for-indian-citizen/fulbright-nehru-masters-fellowships/"
+    },
+    {
+      "name": "EducationUSA scholarship listings",
+      "text": "The US State Department's advising network lists university scholarships open to international students.",
+      "url": "https://educationusa.state.gov/find-financial-aid"
+    }
+  ],
+  "faq": [
+    {
+      "q": "When should I start applying for a US fall intake?",
+      "a": "Start researching 12 to 18 months before you want to begin. Undergraduate applications are usually due between November and January for a September start."
+    },
+    {
+      "q": "Can I work in the US after my master's?",
+      "a": "Yes, on OPT for up to 12 months. If your degree is on the STEM list and your employer uses E-Verify, you can apply for 24 more months."
+    },
+    {
+      "q": "Can I work while I study in the US?",
+      "a": "F-1 students can work on campus up to 20 hours a week while classes are running. Off-campus work needs separate permission."
+    },
+    {
+      "q": "How much does it cost to study in the US?",
+      "a": "Costs depend on the university and city. There is no single government figure. Your counsellor will give you each shortlisted university's published cost of attendance."
+    }
+  ],
+  "boardWork": "12 mo OPT +24 STEM"
+}

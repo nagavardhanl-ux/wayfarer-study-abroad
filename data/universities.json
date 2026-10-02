@@ -1,0 +1,32 @@
+{
+  "_help": "Universities shown on the home page and each country page. 'country' must match a country slug (usa, uk, canada, ireland ...). Tiles show a monogram built from the name, so no logo files are needed. 'confirmed' marks a relationship you have checked in writing.",
+  "universities": [
+    { "name": "Arizona State University", "country": "usa", "confirmed": false },
+    { "name": "George Mason University", "country": "usa", "confirmed": false },
+    { "name": "New Jersey Institute of Technology", "country": "usa", "confirmed": false },
+    { "name": "Northern Arizona University", "country": "usa", "confirmed": false },
+    { "name": "Temple University", "country": "usa", "confirmed": false },
+    { "name": "University of Massachusetts Boston", "country": "usa", "confirmed": false },
+    { "name": "University of Maryland, Baltimore County", "country": "usa", "confirmed": false },
+    { "name": "University of Texas at Arlington", "country": "usa", "confirmed": false },
+
+    { "name": "Aston University", "country": "uk", "confirmed": false },
+    { "name": "Coventry University", "country": "uk", "confirmed": false },
+    { "name": "Keele University", "country": "uk", "confirmed": false },
+    { "name": "University of East Anglia", "country": "uk", "confirmed": false },
+    { "name": "University of Essex", "country": "uk", "confirmed": false },
+    { "name": "University of Surrey", "country": "uk", "confirmed": false },
+    { "name": "The University of Law", "country": "uk", "confirmed": false },
+
+    { "name": "Conestoga College", "country": "canada", "confirmed": false },
+    { "name": "Durham College", "country": "canada", "confirmed": false },
+    { "name": "Fanshawe College", "country": "canada", "confirmed": false },
+    { "name": "McGill University", "country": "canada", "confirmed": false },
+    { "name": "Sheridan College", "country": "canada", "confirmed": false },
+    { "name": "University of Alberta", "country": "canada", "confirmed": false },
+    { "name": "University of Calgary", "country": "canada", "confirmed": false },
+    { "name": "University Canada West", "country": "canada", "confirmed": false },
+
+    { "name": "Dublin Business School", "country": "ireland", "confirmed": false }
+  ]
+}

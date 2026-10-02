@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "title": "MBBS abroad for Indian students: NMC rules before you choose",
+    "description": "The National Medical Commission rules for studying MBBS abroad: NEET, 54-month course, 12-month internship at the same university, English medium, and the internship in India. Check every university against them."
+  },
+  "h1": "MBBS abroad only counts in India if the course meets NMC rules.",
+  "intro": "The National Medical Commission (NMC) sets the rules for Indian students who study medicine abroad and want to practise in India. Check every university against them before you pay anything.",
+  "rules": [
+    {
+      "label": "NEET",
+      "text": "Indian students who want a medical degree from abroad must qualify NEET. The NEET result is treated as the eligibility certificate and stays valid for 3 years from the date the result is declared.",
+      "source": "https://nmc.org.in/page/rules-regulations-rules-regulations-nmc",
+      "lastVerified": "2026-10-01"
+    },
+    {
+      "label": "Course length",
+      "text": "The course leading to the foreign medical degree must last at least 54 months (four and a half years).",
+      "source": "https://nmc.org.in/storage/cms/rules-regulation-nmc/22bEhC9b9MY6TgjvDdFheBsyRYp8Hdj1K0gHsOjD.pdf",
+      "lastVerified": "2026-10-01"
+    },
+    {
+      "label": "Internship abroad",
+      "text": "An internship of at least 12 months must be completed at the same foreign institution where you studied.",
+      "source": "https://nmc.org.in/storage/cms/rules-regulation-nmc/22bEhC9b9MY6TgjvDdFheBsyRYp8Hdj1K0gHsOjD.pdf",
+      "lastVerified": "2026-10-01"
+    },
+    {
+      "label": "Medium of teaching",
+      "text": "The foreign medical degree must be taught in English.",
+      "source": "https://nmc.org.in/storage/cms/rules-regulation-nmc/22bEhC9b9MY6TgjvDdFheBsyRYp8Hdj1K0gHsOjD.pdf",
+      "lastVerified": "2026-10-01"
+    },
+    {
+      "label": "Licence in that country",
+      "text": "You must be registered with, or eligible for a licence from, the medical regulator of the country where you studied, on the same terms as that country's own citizens.",
+      "source": "https://nmc.org.in/storage/cms/rules-regulation-nmc/22bEhC9b9MY6TgjvDdFheBsyRYp8Hdj1K0gHsOjD.pdf",
+      "lastVerified": "2026-10-01"
+    },
+    {
+      "label": "Back in India",
+      "text": "Before you can practise in India you must complete a supervised internship in India of at least 12 months, and clear the National Exit Test or any other test the NMC requires.",
+      "source": "https://nmc.org.in/storage/cms/rules-regulation-nmc/22bEhC9b9MY6TgjvDdFheBsyRYp8Hdj1K0gHsOjD.pdf",
+      "lastVerified": "2026-10-01"
+    },
+    {
+      "label": "Time limit",
+      "text": "The full course must be completed within 10 years of joining.",
+      "source": "https://nmc.org.in/storage/cms/rules-regulation-nmc/22bEhC9b9MY6TgjvDdFheBsyRYp8Hdj1K0gHsOjD.pdf",
+      "lastVerified": "2026-10-01"
+    }
+  ],
+  "rulesNote": "These rules come from the NMC Foreign Medical Graduate Licentiate Regulations, 2021, dated 18 November 2021. They apply to students who joined on or after that date.",
+  "checklist": [
+    "Is the full course at least 54 months, plus a 12-month internship at the same university?",
+    "Is every year taught in English? Ask for it in writing.",
+    "Is the university recognised by the medical regulator of its own country?",
+    "Will you be able to register to practise medicine in that country after graduating?",
+    "Is the fee schedule for all years written down, with what it includes?",
+    "Have you read the NMC's latest public notices about foreign medical institutions?"
+  ],
+  "faq": [
+    {
+      "q": "Do I need NEET to study MBBS abroad?",
+      "a": "Yes, if you want to practise in India. The NMC treats your NEET result as the eligibility certificate, and it is valid for 3 years."
+    },
+    {
+      "q": "Can I do my internship in India instead of abroad?",
+      "a": "Under the 2021 regulations, the 12-month internship must be done at the same foreign university. After you return, you also complete a supervised internship of at least 12 months in India before you can practise."
+    },
+    {
+      "q": "How do I know if a university is genuine?",
+      "a": "Check its recognition with the country's medical regulator, read the NMC's public notices, and get the language of teaching and the full fee schedule in writing. Our counsellors check these with you."
+    }
+  ]
+}

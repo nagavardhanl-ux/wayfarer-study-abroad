@@ -1,0 +1,48 @@
+{
+  "slug": "visa-assistance",
+  "path": "/visa-assistance/",
+  "name": "Visa assistance",
+  "short": "Your student visa file checked document by document, with interview practice.",
+  "meta": {
+    "title": "Student visa assistance in Bengaluru, Chennai, Pune and Kochi",
+    "description": "Wayfarer checks your student visa documents against each country's official rules, helps with forms and funds, and prepares you for the visa interview. The decision belongs to the embassy."
+  },
+  "h1": "A complete, honest visa file is your best chance.",
+  "intro": "We check every document against the country's official rules, help you show your funds correctly, and practise the interview with you. The embassy or immigration office makes the decision.",
+  "covers": [
+    "The official document checklist for your country and visa",
+    "Proof of funds: bank statements, loan sanction letters and sponsor letters",
+    "Online forms and appointment booking",
+    "Biometrics and interview preparation",
+    "Dependant visas for spouses and children where allowed",
+    "What to do after a refusal"
+  ],
+  "whoFor": [
+    "Students with an offer letter, CAS, I-20 or CoE",
+    "Students reapplying after a refusal",
+    "Families applying for a dependant visa"
+  ],
+  "steps": [
+    { "title": "Checklist", "text": "We prepare the official checklist for your country and case." },
+    { "title": "Funds", "text": "We check that your money is shown in the way the rules ask." },
+    { "title": "Forms and appointment", "text": "We help you complete the forms and book biometrics or the interview." },
+    { "title": "Interview practice", "text": "Mock interviews with honest feedback, where the country has an interview." }
+  ],
+  "sections": [
+    {
+      "heading": "No one can guarantee a visa",
+      "paragraphs": [
+        "Only the embassy or immigration office decides. Anyone who promises you a visa is not being honest with you. We make sure your file is complete and true, which is what decision makers look for."
+      ]
+    }
+  ],
+  "tools": [
+    { "label": "Intake deadlines", "href": "/tools/intake-deadlines/" },
+    { "label": "Cost calculator", "href": "/tools/cost-calculator/" }
+  ],
+  "videoId": "7xrZQT5CN2E",
+  "faq": [
+    { "q": "My visa was refused. Can I apply again?", "a": "Usually yes. Read the refusal letter carefully. We help you understand the reasons and fix what is in your control before reapplying." },
+    { "q": "Do you help with dependant visas?", "a": "Yes, where the country allows dependants for your course. Rules differ by country and course level." }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "_help": "Rupees per 1 unit of each currency, used to convert costs to INR. Update 'rates', 'date' and keep 'source'. Derived from the ECB euro reference rates (each rate = EUR/INR divided by EUR/currency). AED uses the fixed UAE dirham peg of 3.6725 per US dollar.",
+  "source": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
+  "date": "2026-09-30",
+  "rates": {
+    "EUR": 108.82,
+    "USD": 95.83,
+    "GBP": 127.33,
+    "CAD": 67.57,
+    "AUD": 66.77,
+    "NZD": 54.10,
+    "SGD": 75.03,
+    "AED": 26.09
+  }
+}

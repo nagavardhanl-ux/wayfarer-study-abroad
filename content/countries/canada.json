@@ -1,0 +1,148 @@
+{
+  "slug": "canada",
+  "name": "Canada",
+  "longName": "Canada",
+  "code": "CAN",
+  "path": "/study-in-canada/",
+  "currency": "CAD",
+  "region": "North America",
+  "meta": {
+    "title": "Study in Canada from India: costs, work permit, PR route",
+    "description": "Average Canadian tuition for international students in rupees, the living cost amount IRCC asks for, work hours, the post-graduation work permit and the Canadian Experience Class."
+  },
+  "summary": "Up to 3 years of work after graduation, 24 hours a week of work during term, and a PR route through Canadian work experience.",
+  "whyReasons": [
+    {
+      "text": "A master's graduate can apply for a 3-year post-graduation work permit, even if the master's lasted less than 2 years, as long as it was at least 8 months long.",
+      "source": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/about.html",
+      "lastVerified": "2026-10-01"
+    },
+    {
+      "text": "Students can work up to 24 hours a week off campus during term, and unlimited hours during scheduled breaks.",
+      "source": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/work-off-campus.html",
+      "lastVerified": "2026-10-01"
+    },
+    {
+      "text": "One year of skilled work in Canada after graduation can make you eligible to apply for permanent residence through the Canadian Experience Class.",
+      "source": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/who-can-apply/canadian-experience-class.html",
+      "lastVerified": "2026-10-01"
+    },
+    {
+      "text": "Average graduate tuition for international students (CAD 24,028 in 2025/2026) is much lower than average undergraduate tuition (CAD 41,746).",
+      "source": "https://www150.statcan.gc.ca/n1/daily-quotidien/250910/dq250910d-eng.htm",
+      "lastVerified": "2026-10-01"
+    }
+  ],
+  "costs": {
+    "tuition": {
+      "ug": {
+        "min": 41746,
+        "max": null,
+        "currency": "CAD",
+        "period": "year",
+        "kind": "average",
+        "note": "National average for full-time international undergraduates, 2025/2026. Fees vary a lot by province and course.",
+        "source": "https://www150.statcan.gc.ca/n1/daily-quotidien/250910/dq250910d-eng.htm",
+        "lastVerified": "2026-10-01"
+      },
+      "pg": {
+        "min": 24028,
+        "max": null,
+        "currency": "CAD",
+        "period": "year",
+        "kind": "average",
+        "note": "National average for full-time international graduate students, 2025/2026.",
+        "source": "https://www150.statcan.gc.ca/n1/daily-quotidien/250910/dq250910d-eng.htm",
+        "lastVerified": "2026-10-01"
+      }
+    },
+    "living": {
+      "tiers": [
+        {
+          "id": "all",
+          "label": "Anywhere outside Quebec",
+          "min": 23448,
+          "max": null,
+          "currency": "CAD",
+          "period": "year",
+          "kind": "minimum"
+        }
+      ],
+      "note": "This is the minimum IRCC asks a single student to show for one year of living costs (applications from 1 September 2026). It does not include tuition or travel. Big cities usually cost more.",
+      "source": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html",
+      "lastVerified": "2026-10-01"
+    },
+    "visaFunds": {
+      "text": "For a study permit applied for on or after 1 September 2026, a single student outside Quebec must show CAD 23,448 for one year of living costs, plus first-year tuition and travel.",
+      "source": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html",
+      "lastVerified": "2026-10-01"
+    }
+  },
+  "intakes": null,
+  "requirements": {
+    "ug": {
+      "academics": null,
+      "english": null,
+      "tests": null
+    },
+    "pg": {
+      "academics": null,
+      "english": null,
+      "tests": null
+    }
+  },
+  "englishMinimum": null,
+  "workRights": {
+    "duringStudy": {
+      "text": "Up to 24 hours a week off campus during term. Unlimited hours during scheduled breaks such as summer and winter holidays.",
+      "source": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/work-off-campus.html",
+      "lastVerified": "2026-10-01"
+    },
+    "afterStudy": {
+      "text": "Post-graduation work permit: up to the length of your program if it was under 2 years, or 3 years if it was 2 years or longer. Master's graduates can get 3 years if the program was at least 8 months. Since 1 November 2024 most applicants must also show language test results.",
+      "source": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/about.html",
+      "lastVerified": "2026-10-01"
+    }
+  },
+  "pr": {
+    "text": "Canadian Experience Class: at least 1 year (1,560 hours) of skilled work in Canada in the 3 years before you apply. Work done while you were a full-time student, including co-op terms, does not count.",
+    "source": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/who-can-apply/canadian-experience-class.html",
+    "lastVerified": "2026-10-01"
+  },
+  "popularCourses": [
+    "Artificial Intelligence",
+    "Machine Learning",
+    "Data Science",
+    "Business Data Analytics",
+    "Cyber Security",
+    "Project Management",
+    "Health Management",
+    "Human-Computer Interaction"
+  ],
+  "scholarships": [
+    {
+      "name": "Scholarships listed on EduCanada",
+      "text": "The Government of Canada lists scholarships open to international students, including programmes for students from India.",
+      "url": "https://www.educanada.ca/scholarships-bourses/index.aspx?lang=eng"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How much money do I need for a Canadian study permit?",
+      "a": "From 1 September 2026, a single student outside Quebec must show CAD 23,448 for one year of living costs. You must also show your first-year tuition and travel money."
+    },
+    {
+      "q": "How long can I work in Canada after my course?",
+      "a": "If your program was 2 years or longer, the post-graduation work permit can be valid for 3 years. Master's graduates can get 3 years if the program was at least 8 months long. Shorter programs get a permit up to the program's length."
+    },
+    {
+      "q": "Can I work while I study in Canada?",
+      "a": "Yes. Up to 24 hours a week off campus during term, and unlimited hours during scheduled breaks."
+    },
+    {
+      "q": "Does part-time work during study count towards PR?",
+      "a": "No. For the Canadian Experience Class, work done while you were a full-time student does not count. You need 1 year of skilled work after your studies."
+    }
+  ],
+  "boardWork": "Up to 3 yrs"
+}

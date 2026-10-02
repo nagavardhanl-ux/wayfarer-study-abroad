@@ -1,0 +1,88 @@
+{
+  "slug": "education-loans",
+  "path": "/education-loans/",
+  "name": "Education loans",
+  "short": "Collateral and non-collateral loans, including cases with a low CIBIL score.",
+  "meta": {
+    "title": "Education loans for study abroad: collateral, non-collateral, low CIBIL",
+    "description": "How study abroad education loans work in India: loans with and without collateral, what to do with a low CIBIL score, the moratorium period, the PM-Vidyalaxmi portal and how Wayfarer helps."
+  },
+  "h1": "Most families fund study abroad with an education loan. Here is how it works.",
+  "intro": "We help you compare lenders, prepare documents and choose between a loan with collateral and one without. The lender decides on the loan.",
+  "covers": [
+    "Working out how much to borrow after savings and scholarships",
+    "Comparing loans with and without collateral",
+    "Options when the parent's CIBIL score is low",
+    "The document list for the lender",
+    "The sanction letter you need for the visa",
+    "Planning repayment and the moratorium period"
+  ],
+  "whoFor": [
+    "Families who cannot pay the full cost from savings",
+    "Families without property to offer as collateral",
+    "Families who had a loan application turned down before"
+  ],
+  "steps": [
+    { "title": "Estimate the amount", "text": "We add tuition, living costs and travel, then subtract savings and scholarships." },
+    { "title": "Choose the loan type", "text": "With collateral for larger amounts, or without collateral based on the course and co-applicant." },
+    { "title": "Apply to lenders", "text": "We help you prepare the documents and apply to suitable lenders." },
+    { "title": "Use the sanction letter", "text": "The sanction letter is often used as proof of funds for the visa." }
+  ],
+  "sections": [
+    {
+      "id": "collateral",
+      "heading": "Loans with and without collateral",
+      "paragraphs": [
+        "A loan with collateral is secured against property or a fixed deposit. Lenders usually offer larger amounts and lower interest.",
+        "A loan without collateral depends on the university, the course and the co-applicant's income and credit history. Amounts are usually smaller and interest is usually higher."
+      ]
+    },
+    {
+      "id": "government",
+      "heading": "Government support for education loans",
+      "facts": [
+        {
+          "label": "Credit guarantee",
+          "text": "The Government of India's Credit Guarantee Fund for Education Loans guarantees education loans of up to ₹7.5 lakh given without collateral security or a third-party guarantee by member lenders.",
+          "source": "https://www.ncgtc.in/en/product-details/CGFEL/Credit-Guarantee-Fund-Scheme-for-Education-Loans-(CGFEL)",
+          "lastVerified": "2026-10-01"
+        },
+        {
+          "label": "PM-Vidyalaxmi portal",
+          "text": "A single government portal where students apply for education loans for higher education in India and abroad. One common application form goes to the banks you choose.",
+          "source": "https://pmvidyalaxmi.co.in/",
+          "lastVerified": "2026-10-01"
+        }
+      ]
+    },
+    {
+      "id": "low-cibil",
+      "heading": "If the CIBIL score is low",
+      "paragraphs": ["A low score makes approval harder, but it does not always close the door. These steps can help:"],
+      "bullets": [
+        "Add a co-applicant with a better credit history, such as the other parent or a close relative.",
+        "Offer collateral, which reduces the lender's risk.",
+        "Apply to lenders that specialise in education loans.",
+        "Borrow a smaller amount and cover the rest from savings.",
+        "Clear or settle small overdue amounts before applying, and keep the closure letters."
+      ]
+    },
+    {
+      "id": "moratorium",
+      "heading": "The moratorium period",
+      "paragraphs": [
+        "Most education loans do not ask for the full monthly instalment during the course and for a few months after it. This is the moratorium. Interest still builds up during this time. Paying the interest while your child studies keeps the final loan smaller."
+      ]
+    }
+  ],
+  "tools": [
+    { "label": "Loan EMI calculator", "href": "/tools/loan-emi-calculator/" },
+    { "label": "Cost calculator", "href": "/tools/cost-calculator/" }
+  ],
+  "videoId": "PBmXgi_0bQY",
+  "faq": [
+    { "q": "Can I get an education loan without collateral?", "a": "Yes, many lenders give loans without collateral based on the university, the course and the co-applicant. The amount is usually lower than a secured loan." },
+    { "q": "My loan was rejected. What now?", "a": "Find out the reason first. A different co-applicant, collateral, a smaller amount or a different lender can change the result. Our counsellors help you plan the next application." },
+    { "q": "Does Wayfarer give loans?", "a": "No. Banks and finance companies give loans. We help you compare them and prepare a complete application." }
+  ]
+}

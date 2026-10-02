@@ -1,0 +1,169 @@
+{
+  "slug": "germany",
+  "name": "Germany",
+  "longName": "Germany",
+  "code": "DEU",
+  "path": "/study-in-germany/",
+  "currency": "EUR",
+  "region": "Europe",
+  "meta": {
+    "title": "Study in Germany from India: blocked account, fees, job search visa",
+    "description": "Public university fees in Germany, the €11,904 blocked account in rupees, winter and summer semester deadlines, student work limits and the 18-month job search permit."
+  },
+  "summary": "Low or no tuition at public universities, two semesters to start in, and 18 months to find a job after graduating.",
+  "whyReasons": [
+    {
+      "text": "Public universities charge no tuition for most bachelor's and master's programmes. Baden-Württemberg charges non-EU students €1,500 a semester.",
+      "source": "https://www.daad.de/en/studying-in-germany/living-in-germany/finances/",
+      "lastVerified": "2026-10-01"
+    },
+    {
+      "text": "After graduating in Germany you get up to 18 months to look for a job, and you may work during that time.",
+      "source": "https://www.bamf.de/EN/Themen/MigrationAufenthalt/ZuwandererDrittstaaten/Arbeit/Hochschulabsolvent/hochschulabsolvent-node.html",
+      "lastVerified": "2026-10-01"
+    },
+    {
+      "text": "There are two starts a year: the winter semester (October) and the summer semester (April).",
+      "source": "https://www.daad.de/en/studying-in-germany/requirements/application-process/",
+      "lastVerified": "2026-10-01"
+    }
+  ],
+  "costs": {
+    "tuition": {
+      "ug": {
+        "min": 140,
+        "max": 3860,
+        "currency": "EUR",
+        "period": "year",
+        "kind": "range",
+        "note": "Public universities: semester contribution of €70 to €430 per semester, plus tuition of €1,500 per semester in Baden-Württemberg. Bavarian universities may set their own fees. Private universities charge more.",
+        "source": "https://www.daad.de/en/studying-in-germany/living-in-germany/finances/",
+        "lastVerified": "2026-10-01"
+      },
+      "pg": {
+        "min": 140,
+        "max": 3860,
+        "currency": "EUR",
+        "period": "year",
+        "kind": "range",
+        "note": "Same rules as bachelor's for most master's programmes at public universities. Some specialised master's charge fees.",
+        "source": "https://www.daad.de/en/studying-in-germany/living-in-germany/finances/",
+        "lastVerified": "2026-10-01"
+      }
+    },
+    "living": {
+      "tiers": [
+        {
+          "id": "all",
+          "label": "Anywhere in Germany",
+          "min": 900,
+          "max": 1200,
+          "currency": "EUR",
+          "period": "month",
+          "kind": "range"
+        }
+      ],
+      "note": "DAAD's suggested budget for international students. For the visa you must show €992 a month (€11,904 a year), usually in a blocked account.",
+      "source": "https://www.daad.de/en/studying-in-germany/living-in-germany/finances/",
+      "lastVerified": "2026-10-01"
+    },
+    "visaFunds": {
+      "text": "Proof of €992 a month (€11,904 for a year), usually through a blocked account, in effect since 1 January 2025.",
+      "source": "https://www.daad.de/en/studying-in-germany/living-in-germany/finances/",
+      "lastVerified": "2026-10-01"
+    }
+  },
+  "intakes": {
+    "items": [
+      {
+        "id": "winter",
+        "label": "Winter semester (September or October)",
+        "startMonth": 10,
+        "main": true
+      },
+      {
+        "id": "summer",
+        "label": "Summer semester (March or April)",
+        "startMonth": 4,
+        "main": false
+      }
+    ],
+    "applyBy": [
+      {
+        "intakeId": "winter",
+        "text": "At most universities, apply between early May and 15 July.",
+        "monthDay": "07-15",
+        "level": "all"
+      },
+      {
+        "intakeId": "summer",
+        "text": "At most universities, apply between early December and 15 January.",
+        "monthDay": "01-15",
+        "level": "all"
+      }
+    ],
+    "note": "Private universities may have other deadlines.",
+    "source": "https://www.daad.de/en/studying-in-germany/requirements/application-process/",
+    "lastVerified": "2026-10-01"
+  },
+  "requirements": {
+    "ug": {
+      "academics": null,
+      "english": null,
+      "tests": null
+    },
+    "pg": {
+      "academics": null,
+      "english": null,
+      "tests": null
+    }
+  },
+  "englishMinimum": null,
+  "workRights": {
+    "duringStudy": {
+      "text": "Up to 120 full days or 240 half days of work a year.",
+      "source": "https://www.bamf.de/EN/Themen/MigrationAufenthalt/ZuwandererDrittstaaten/Bildung/Studium/studium-node.html",
+      "lastVerified": "2026-10-01"
+    },
+    "afterStudy": {
+      "text": "A residence permit of up to 18 months to look for qualified work after graduating, if you can support yourself. You may take up any work during this time.",
+      "source": "https://www.bamf.de/EN/Themen/MigrationAufenthalt/ZuwandererDrittstaaten/Arbeit/Hochschulabsolvent/hochschulabsolvent-node.html",
+      "lastVerified": "2026-10-01"
+    }
+  },
+  "pr": null,
+  "popularCourses": [
+    "Mechanical Engineering",
+    "Automotive Engineering",
+    "Electrical Engineering",
+    "Computer Science",
+    "Data Science",
+    "Renewable Energy"
+  ],
+  "scholarships": [
+    {
+      "name": "DAAD scholarship database",
+      "text": "Search DAAD and other German scholarships by country of origin and subject.",
+      "url": "https://www.daad.de/en/studying-in-germany/scholarships/"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is studying in Germany really free?",
+      "a": "At most public universities there is no tuition for bachelor's and most master's courses. You still pay a semester contribution of €70 to €430. Baden-Württemberg charges non-EU students €1,500 a semester, and private universities charge full fees."
+    },
+    {
+      "q": "How much goes into the blocked account?",
+      "a": "€992 a month, which is €11,904 for a year. You can draw the monthly amount after you arrive."
+    },
+    {
+      "q": "When are the deadlines?",
+      "a": "At most universities, 15 July for the winter semester and 15 January for the summer semester. Private universities may differ."
+    },
+    {
+      "q": "Can I stay after my degree?",
+      "a": "Yes. You can get a residence permit for up to 18 months to look for work, and you may work during that time."
+    }
+  ],
+  "boardWork": "18 months"
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "singapore",
+  "name": "Singapore",
+  "longName": "Singapore",
+  "code": "SGP",
+  "path": "/study-in-singapore/",
+  "currency": "SGD",
+  "region": "Asia",
+  "meta": {
+    "title": "Study in Singapore from India: Tuition Grant, bond, job search pass",
+    "description": "How Singapore's MOE Tuition Grant and 3-year bond work, the 1-year Long Term Visit Pass to look for a job after study, and how Wayfarer helps."
+  },
+  "summary": "A government Tuition Grant that lowers fees in return for 3 years of work in Singapore, and a year to find a job after graduating.",
+  "whyReasons": [
+    {
+      "text": "International students at eligible universities can apply for the MOE Tuition Grant, which lowers fees. In return you must work full-time for a Singapore entity for 3 years after graduating.",
+      "source": "https://www.moe.gov.sg/financial-matters/tuition-grant-scheme/bond-matters/employment",
+      "lastVerified": "2026-10-01"
+    },
+    {
+      "text": "Tuition Grant holders can apply for a 1-year Long Term Visit Pass when their Student's Pass expires, to stay and look for work.",
+      "source": "https://www.moe.gov.sg/financial-matters/tuition-grant-scheme/employment/pass-matters",
+      "lastVerified": "2026-10-01"
+    }
+  ],
+  "costs": {
+    "tuition": {
+      "ug": null,
+      "pg": null
+    },
+    "living": null,
+    "visaFunds": null
+  },
+  "intakes": null,
+  "requirements": {
+    "ug": {
+      "academics": null,
+      "english": null,
+      "tests": null
+    },
+    "pg": {
+      "academics": null,
+      "english": null,
+      "tests": null
+    }
+  },
+  "englishMinimum": null,
+  "workRights": {
+    "duringStudy": null,
+    "afterStudy": {
+      "text": "Tuition Grant holders can apply for a 1-year Long Term Visit Pass after their Student's Pass expires, to look for work. The pass is cancelled once a work pass is issued.",
+      "source": "https://www.moe.gov.sg/financial-matters/tuition-grant-scheme/employment/pass-matters",
+      "lastVerified": "2026-10-01"
+    }
+  },
+  "pr": null,
+  "popularCourses": [
+    "Business Analytics",
+    "Computer Science",
+    "Finance",
+    "Engineering",
+    "Hospitality Management"
+  ],
+  "scholarships": [
+    {
+      "name": "MOE Tuition Grant",
+      "text": "Lowers tuition at eligible institutions. You must work for a Singapore entity for 3 years after graduating.",
+      "url": "https://www.moe.gov.sg/financial-matters/tuition-grant-scheme"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is the Tuition Grant bond?",
+      "a": "If you take the MOE Tuition Grant, you must work full-time for a Singapore entity for 3 years after you graduate. Time can be spread across different employers."
+    },
+    {
+      "q": "Can I stay to look for a job after studying?",
+      "a": "Tuition Grant holders can apply for a 1-year Long Term Visit Pass when their Student's Pass expires. Your employer then applies for your work pass."
+    }
+  ],
+  "boardWork": "1 yr (grant holders)"
+}

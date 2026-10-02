@@ -1,0 +1,43 @@
+{
+  "slug": "profile-evaluation",
+  "path": "/profile-evaluation/",
+  "name": "Profile evaluation",
+  "short": "Find out which countries, courses and universities fit your marks, budget and goals.",
+  "meta": {
+    "title": "Free profile evaluation for studying abroad",
+    "description": "A counsellor checks your marks, backlogs, English score, work experience and budget, then tells you which countries and universities fit. Free, at any Wayfarer branch or by phone."
+  },
+  "h1": "A profile evaluation tells you where you can realistically apply.",
+  "intro": "A counsellor looks at your marks, gaps, English score and budget, and gives you a shortlist of countries and universities that fit. It is free.",
+  "covers": [
+    "Your academic record: 10th, 12th or degree marks, backlogs and study gaps",
+    "English test status, or whether you need a test at all",
+    "Work experience and how it helps or affects your application",
+    "Your total budget, including what an education loan can cover",
+    "Countries and intakes that suit your timeline",
+    "A first shortlist of courses and universities"
+  ],
+  "whoFor": [
+    "12th class students planning a bachelor's degree abroad",
+    "Graduates planning a master's or MBA",
+    "Working professionals with a study gap",
+    "Students with backlogs who want to know their options"
+  ],
+  "steps": [
+    { "title": "Answer seven questions", "text": "Start the free profile check online, or call your nearest branch." },
+    { "title": "Talk to a counsellor", "text": "A counsellor calls you, or you meet at the branch with your marks memos." },
+    { "title": "Get your shortlist", "text": "You get the countries, courses and universities that fit, with fees and intakes." },
+    { "title": "Decide your next step", "text": "Book a test, start applications, or take time to plan with your family." }
+  ],
+  "sections": [],
+  "tools": [
+    { "label": "Eligibility check", "href": "/tools/eligibility-check/" },
+    { "label": "Cost calculator", "href": "/tools/cost-calculator/" }
+  ],
+  "videoId": "QspT-CQoQhg",
+  "faq": [
+    { "q": "Is the profile evaluation free?", "a": "Yes. There is no charge for the profile check or the first counselling session." },
+    { "q": "What should I bring to the branch?", "a": "Your marks memos, passport if you have one, any English test score, and an idea of your family's budget." },
+    { "q": "I have backlogs. Can I still study abroad?", "a": "Many universities accept students with backlogs, but the rules differ by country and university. Your counsellor checks the rules for each university on your shortlist." }
+  ]
+}
