@@ -24,31 +24,44 @@ const migrationRedirects: { source: string; destination: string }[] = [
   { source: "/wp-login.php", destination: "/" },
 ];
 
+/**
+ * STATIC_EXPORT=1 (set by `npm run build:static`) writes plain HTML to /dist for any static host.
+ * Static hosting has no server, so redirects, headers, image optimisation and /api/lead are left out.
+ */
+const STATIC_EXPORT = process.env.STATIC_EXPORT === "1";
+
 const nextConfig: NextConfig = {
+  ...(STATIC_EXPORT ? { output: "export" as const, distDir: "dist" } : {}),
   trailingSlash: true,
   poweredByHeader: false,
+  // build-static.mjs runs tsc itself before the export (with app/api in place), so skip the duplicate check here.
+  typescript: { ignoreBuildErrors: STATIC_EXPORT },
   // Inline the (small, atomic) Tailwind CSS: removes a render-blocking request for first-time mobile visitors.
   experimental: { inlineCss: true },
   images: {
+    unoptimized: STATIC_EXPORT,
     formats: ["image/avif", "image/webp"],
     remotePatterns: [{ protocol: "https", hostname: "i.ytimg.com", pathname: "/vi/**" }],
   },
-  async redirects() {
-    return migrationRedirects.map((r) => ({ ...r, statusCode: 301 as const }));
-  },
-  async headers() {
-    return [
-      {
-        source: "/:path*",
-        headers: [
-          { key: "X-Content-Type-Options", value: "nosniff" },
-          { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
-          { key: "X-Frame-Options", value: "SAMEORIGIN" },
-          { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=()" },
-        ],
-      },
-    ];
-  },
+  ...(STATIC_EXPORT ? {} : { redirects, headers }),
 };
+
+async function redirects() {
+  return migrationRedirects.map((r) => ({ ...r, statusCode: 301 as const }));
+}
+
+async function headers() {
+  return [
+    {
+      source: "/:path*",
+      headers: [
+        { key: "X-Content-Type-Options", value: "nosniff" },
+        { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
+        { key: "X-Frame-Options", value: "SAMEORIGIN" },
+        { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=()" },
+      ],
+    },
+  ];
+}
 
 export default nextConfig;

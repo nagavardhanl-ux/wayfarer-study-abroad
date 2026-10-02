@@ -25,3 +25,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     .map((p) => ({ url: absoluteUrl(`/${p.slug}/`), lastModified: new Date(p.updated ?? p.date ?? now) }));
   return [...urls, ...posts];
 }
+
+export const dynamic = "force-static";

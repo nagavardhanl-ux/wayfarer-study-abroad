@@ -9,3 +9,5 @@ export default function Image() {
   const c = getCountry("malta");
   return passOgImage({ to: c.name, code: c.code, line: "Costs, intakes and visa rules in rupees" });
 }
+
+export const dynamic = "force-static";

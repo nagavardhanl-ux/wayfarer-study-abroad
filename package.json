@@ -7,6 +7,8 @@
     "prebuild": "node scripts/check-content.mjs",
     "build": "next build",
     "start": "next start",
+    "build:static": "node scripts/build-static.mjs",
+    "serve:static": "npx --yes serve@14 dist",
     "typecheck": "tsc --noEmit",
     "check:content": "node scripts/check-content.mjs",
     "check:links": "node scripts/check-links.mjs",

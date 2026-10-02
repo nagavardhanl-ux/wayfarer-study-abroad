@@ -172,6 +172,13 @@ export function ProfileCheck({
     setStatus("sending");
     setErrorMsg("");
     try {
+      // Demo mode (static export or no lead backend): show the confirmation without sending anything.
+      if (process.env.NEXT_PUBLIC_DEMO_LEADS === "1") {
+        await new Promise((r) => setTimeout(r, 600));
+        track("lead_submit", { country: a.country, level: a.level, branch: a.branch, demo: true });
+        setStatus("done");
+        return;
+      }
       const res = await fetch("/api/lead", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -644,6 +651,11 @@ function Confirmation({ name, branch, waMessage, headingRef }: { name: string; b
       <p className="mt-4">
         A counsellor will call you to go through your profile. If you want to start now, send your answers to the branch on WhatsApp.
       </p>
+      {process.env.NEXT_PUBLIC_DEMO_LEADS === "1" ? (
+        <p className="mt-3 rounded-md border border-dashed border-line-strong px-3 py-2 text-sm text-muted">
+          Demo mode: this portfolio build does not send your details anywhere.
+        </p>
+      ) : null}
       {branch ? (
         <div className="mt-6 flex flex-col gap-3 sm:flex-row">
           <a href={whatsappHref(branch.whatsapp, waMessage)} target="_blank" rel="noopener noreferrer" data-track="whatsapp" data-branch={branch.slug} data-location="profile-check-confirmation" className="btn btn-primary">

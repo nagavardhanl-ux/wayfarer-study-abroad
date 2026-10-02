@@ -81,8 +81,8 @@ export async function POST(request: Request) {
 
   const webhook = process.env.LEAD_WEBHOOK_URL;
   if (!webhook) {
-    if (process.env.NODE_ENV !== "production") {
-      console.info("[lead] LEAD_WEBHOOK_URL not set; lead not forwarded (dev only):", lead);
+    if (process.env.NODE_ENV !== "production" || process.env.NEXT_PUBLIC_DEMO_LEADS === "1") {
+      console.info("[lead] LEAD_WEBHOOK_URL not set; lead not forwarded (dev or demo mode):", lead);
       return Response.json({ ok: true, forwarded: false });
     }
     console.error("[lead] LEAD_WEBHOOK_URL is not set in production");

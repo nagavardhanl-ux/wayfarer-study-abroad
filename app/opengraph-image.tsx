@@ -7,3 +7,5 @@ export const alt = "Wayfarer: study abroad from Bengaluru, Chennai, Pune and Koc
 export default function Image() {
   return passOgImage({ to: "Abroad", code: "ANY", line: "Admission, education loan and visa. Since 2011." });
 }
+
+export const dynamic = "force-static";
