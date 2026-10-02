@@ -7,6 +7,7 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader, SkipLink } from "@/components/SiteHeader";
 import { StickyContactBar } from "@/components/StickyContactBar";
 import { StickyPass } from "@/components/StickyPass";
+import { asset } from "@/lib/asset";
 import { getBranches, getCountries } from "@/lib/content";
 import { organizationSchema } from "@/lib/schema";
 import { SITE_URL } from "@/lib/site";
@@ -42,6 +43,10 @@ export const metadata: Metadata = {
     type: "website",
   },
   twitter: { card: "summary_large_image" },
+  icons: {
+    icon: [{ url: asset("/icon.png"), type: "image/png", sizes: "64x64" }],
+    apple: [{ url: asset("/apple-icon.png"), sizes: "180x180" }],
+  },
   formatDetection: { telephone: false },
 };
 

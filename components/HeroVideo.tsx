@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { asset } from "@/lib/asset";
 
 /**
  * Muted, looping background video for the home hero.
@@ -17,7 +18,7 @@ export function HeroVideo() {
     if (conn?.saveData || (conn?.effectiveType && /(^|-)(2g|3g)$/.test(conn.effectiveType))) return;
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
     if (!window.matchMedia("(min-width: 768px)").matches) return;
-    const pick = () => setSrc("/video/hero-1280.mp4");
+    const pick = () => setSrc(asset("/video/hero-1280.mp4"));
     const idle = (window as unknown as { requestIdleCallback?: (cb: () => void, o?: { timeout: number }) => number }).requestIdleCallback;
     const start = () => (idle ? idle(pick, { timeout: 3000 }) : setTimeout(pick, 1500));
     if (document.readyState === "complete") start();

@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useCallback, useEffect, useId, useMemo, useRef, useState } from "react";
 import { readUtm, track } from "@/lib/analytics";
+import { asset } from "@/lib/asset";
 import { normaliseIndianMobile, telHref, whatsappHref } from "@/lib/contact";
 import { ArrowLeft, ArrowRight, PhoneIcon, WhatsAppIcon } from "../Icons";
 import { PassStub } from "./PassStub";
@@ -179,7 +180,7 @@ export function ProfileCheck({
         setStatus("done");
         return;
       }
-      const res = await fetch("/api/lead", {
+      const res = await fetch(asset("/api/lead"), {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

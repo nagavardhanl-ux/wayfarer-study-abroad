@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { track } from "@/lib/analytics";
 import { formatInrRange, formatLocal, toInrPerYear, type InrRange } from "@/lib/money";
@@ -102,7 +103,7 @@ export function CostCalculator({ countries, rates, rateDate }: { countries: Cost
           </dl>
           <p className="mt-3 text-sm text-muted">
             Converted at the exchange rate on {new Date(`${rateDate}T00:00:00Z`).toLocaleDateString("en-IN", { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" })}. Figures come from official sources listed on the{" "}
-            <a href={c.path + "#cost"} className="link">{c.name} page</a>. Travel, visa fees and health cover are extra. {result.total.kind === "minimum" ? "Where only a minimum is published, the total is a starting point." : ""}
+            <Link href={c.path + "#cost"} className="link">{c.name} page</Link>. Travel, visa fees and health cover are extra. {result.total.kind === "minimum" ? "Where only a minimum is published, the total is a starting point." : ""}
           </p>
           <ToolCta
             text={`Your estimate: ${formatInrRange(result.total)} for ${c.name}. Talk it through with a counsellor.`}

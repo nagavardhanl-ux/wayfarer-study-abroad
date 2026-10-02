@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 
 /** Branch cities and destination cities (map positions only, used to draw the routes). */
@@ -166,8 +167,8 @@ export function FlightGlobe() {
       <ul className="mt-2 flex flex-wrap justify-center gap-2" aria-label="Destinations">
         {GLOBE_DESTINATIONS.map((d) => (
           <li key={d.slug}>
-            <a
-              href={d.slug === "dubai" ? "/study-in-dubai/" : `/study-in-${d.slug}/`}
+            <Link
+              href={`/study-in-${d.slug}/`}
               onMouseEnter={() => setActive(d.slug)}
               onMouseLeave={() => setActive(null)}
               onFocus={() => setActive(d.slug)}
@@ -177,7 +178,7 @@ export function FlightGlobe() {
               }`}
             >
               {d.name}
-            </a>
+            </Link>
           </li>
         ))}
       </ul>

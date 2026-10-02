@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { DestinationGrid } from "@/components/cards";
 import { hasCostData } from "@/components/CountryPage";
 import { MiniPass } from "@/components/MiniPass";
@@ -46,7 +47,7 @@ export default function Page() {
               {compare.map((c) => (
                 <tr key={c.slug} className="border-b border-line align-top">
                   <th scope="row" className="py-3 pr-4">
-                    <a href={c.path} className="font-semibold text-blue underline underline-offset-4">{c.name}</a>
+                    <Link href={c.path} className="font-semibold text-blue underline underline-offset-4">{c.name}</Link>
                   </th>
                   <td className="py-3">{c.workRights.afterStudy!.text}</td>
                 </tr>

@@ -11,7 +11,7 @@ export function organizationSchema(branches: Branch[]): Json {
     name: BRAND,
     legalName: LEGAL_NAME,
     url: absoluteUrl("/"),
-    logo: absoluteUrl("/apple-icon"),
+    logo: absoluteUrl("/apple-icon.png"),
     foundingDate: String(FOUNDED),
     ...(SOCIAL_LINKS.length ? { sameAs: SOCIAL_LINKS.map(([, href]) => href) } : {}),
     department: branches.map((b) => ({ "@id": absoluteUrl(`/branches/${b.slug}/#localbusiness`) })),

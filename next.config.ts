@@ -32,6 +32,8 @@ const STATIC_EXPORT = process.env.STATIC_EXPORT === "1";
 
 const nextConfig: NextConfig = {
   ...(STATIC_EXPORT ? { output: "export" as const, distDir: "dist" } : {}),
+  // GitHub Pages project sites live under /<repo>; the deploy workflow sets this.
+  ...(process.env.NEXT_PUBLIC_BASE_PATH ? { basePath: process.env.NEXT_PUBLIC_BASE_PATH.replace(/\/$/, "") } : {}),
   trailingSlash: true,
   poweredByHeader: false,
   // build-static.mjs runs tsc itself before the export (with app/api in place), so skip the duplicate check here.
@@ -39,7 +41,7 @@ const nextConfig: NextConfig = {
   // Inline the (small, atomic) Tailwind CSS: removes a render-blocking request for first-time mobile visitors.
   experimental: { inlineCss: true },
   images: {
-    unoptimized: STATIC_EXPORT,
+    ...(STATIC_EXPORT ? { loader: "custom" as const, loaderFile: "./lib/image-loader.ts" } : {}),
     formats: ["image/avif", "image/webp"],
     remotePatterns: [{ protocol: "https", hostname: "i.ytimg.com", pathname: "/vi/**" }],
   },

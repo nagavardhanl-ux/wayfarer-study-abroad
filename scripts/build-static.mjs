@@ -40,6 +40,17 @@ try {
 }
 
 if (status === 0) {
+  // Static hosts pick the content type from the file extension. Next writes social cards as
+  // extension-less "opengraph-image" files, so copy each to .png and point the meta tags at it.
+  const dist = path.join(root, "dist");
+  const walk = (dir) => fs.readdirSync(dir, { withFileTypes: true }).flatMap((e) => (e.isDirectory() ? walk(path.join(dir, e.name)) : [path.join(dir, e.name)]));
+  const files = walk(dist);
+  for (const f of files) if (path.basename(f) === "opengraph-image") fs.copyFileSync(f, `${f}.png`);
+  for (const f of files.filter((x) => x.endsWith(".html"))) {
+    const html = fs.readFileSync(f, "utf8");
+    const out = html.replace(/(\/opengraph-image)(\?[0-9a-f]+)?"/g, '$1.png$2"');
+    if (out !== html) fs.writeFileSync(f, out);
+  }
   const count = (dir) => fs.readdirSync(dir, { withFileTypes: true }).reduce((n, e) => n + (e.isDirectory() ? count(path.join(dir, e.name)) : e.name.endsWith(".html") ? 1 : 0), 0);
   console.log(`\n✔ Static site written to dist/ (${count(path.join(root, "dist"))} HTML pages)`);
 }
