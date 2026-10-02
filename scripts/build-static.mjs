@@ -18,6 +18,9 @@ const nextBin = path.join(root, "node_modules", "next", "dist", "bin", "next");
 
 const check = spawnSync(process.execPath, [path.join(root, "scripts", "check-content.mjs")], { stdio: "inherit" });
 if (check.status !== 0) process.exit(check.status ?? 1);
+// Route types (PageProps etc.) are generated, not committed; create them before the typecheck.
+const typegen = spawnSync(process.execPath, [nextBin, "typegen", root], { stdio: "inherit" });
+if (typegen.status !== 0) process.exit(typegen.status ?? 1);
 const tsc = spawnSync(process.execPath, [path.join(root, "node_modules", "typescript", "bin", "tsc"), "--noEmit", "-p", root], { stdio: "inherit" });
 if (tsc.status !== 0) process.exit(tsc.status ?? 1);
 
